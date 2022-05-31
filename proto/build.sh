@@ -1,8 +1,6 @@
 #!/bin/bash
 protoc --go_out=. *.proto
 
-# sleep 3
-
 base_path=$(cd `dirname $0`; pwd)
 src_dir_path=$base_path"/pb"
 

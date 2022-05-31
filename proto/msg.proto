@@ -24,8 +24,7 @@ message BroadCast{
 message HandShake{  
     string s_host = 1;
     string s_name = 2;
-    string curr_branch = 3;
-    uint32 s_group = 4;
+    uint32 s_group = 3;
 } 
 
 message Echo{
@@ -37,9 +36,8 @@ message Echo{
 message Server{
     string s_host = 1;
     string s_name = 2;
-    string curr_branch = 3;
-    uint32 s_online = 4;
-    uint32 s_group = 5;
+    uint32 s_online = 3;
+    uint32 s_group = 4;
 }
 
 message GameServerList{
