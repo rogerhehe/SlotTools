@@ -30,7 +30,7 @@ message HandShake{
 message Echo{
     string s_host = 1;
     string s_name = 2;
-    optional uint32 s_online = 3;//要不就让他变成指针 要不就赋默认-1
+    uint32 s_online = 3;
 }
 
 message Server{
