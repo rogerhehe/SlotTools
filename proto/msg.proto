@@ -7,6 +7,47 @@ option go_package = './pb';
 // 类型：int32、int64、sint32、sint64、string、32-bit ....
 // proto3没有默认值 require optional
 
+message Server{
+    string s_host = 1;
+    string s_name = 2;
+    uint32 s_online = 3;
+    uint32 s_group = 4;
+}
+
+message ReqHandShake{  
+    string s_host = 1;
+    string s_name = 2;
+    uint32 s_group = 3;
+}
+
+message RespHandShake{
+    map<string, Server> room_server = 1;
+    map<string, Server> world_server = 2;
+    map<string, Server> game_server = 3;
+}
+
+message SyncEcho{
+    string s_host = 1;
+    string s_name = 2;
+    uint32 s_online = 3;
+}
+
+message SyncError {
+    string error = 1;
+}
+
+message SyncGameServer{
+    uint32 status = 1;
+    map<string, Server> game_server = 2;
+}
+
+message SyncRoomServer{
+    map<string, Server> room_server = 1;
+}
+
+message SyncWorldServer{
+    map<string, Server> world_server = 1;
+}
 
 message BroadCast{
     enum OperType{
@@ -21,49 +62,10 @@ message BroadCast{
     bytes data = 4;
 };
 
-message HandShake{  
-    string s_host = 1;
-    string s_name = 2;
-    uint32 s_group = 3;
-} 
-
-message Echo{
-    string s_host = 1;
-    string s_name = 2;
-    uint32 s_online = 3;
-}
-
-message Server{
-    string s_host = 1;
-    string s_name = 2;
-    uint32 s_online = 3;
-    uint32 s_group = 4;
-}
-
-message GameServerList{
-    uint32 status = 1;
-    map<string, Server> game_list = 2;
-}
-
-message RoomServerList{
-    map<string, Server> room_list = 1;
-}
-
-message WorldServerList{
-    map<string, Server> world_list = 1;
-}
-
-message SpecialServerList{
-    map<string, Server> room_list = 1;
-    map<string, Server> world_list = 2;
-}
-
-message GMServerList{//替换center向gm发的10005
-    map<string, Server> game_list = 1;
-    map<string, Server> room_list = 2;
-    map<string, Server> world_list = 3;
-}
-
-message Error {
-    string error = 1;
+message Test {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
 }
