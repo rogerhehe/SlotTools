@@ -5,6 +5,7 @@ import os
 
 
 # %%
+os.makedirs('json',exist_ok = True)
 
 for fn in os.listdir('./csv'):
     if fn.find('.csv') > 0:
