@@ -1,0 +1,25 @@
+id,name,icon,type,class,rarity,base_price,damage,damge_scales,attack_speed,crit_chance,crit_damage,range,life_steal,knockback,special_effects,unlocked
+int,string,string,int,int,int,int,int,float,float,float,float,int,float,int,string,int
+#唯一标识,#名字,#图标,#类型,#分类,#品质,#价格,#伤害,#伤害加成系数,#攻击速率,#%暴击率,#暴击伤害倍数,#范围,#%生命窃取,#击退,#特殊效果,#解锁条件
+11001,Cacti Club,cacti_club,1,4,1,20,10,0.8,1.67,0.3,2,200,0,8,"""Hitting and enemy spawns 3/4/5/6 projectiles dealing 50%Ranged damage""",0
+11002,Cacti Club,cacti_club,1,4,2,39,20,0.8,1.57,0.3,2,200,0,8,"""Hitting and enemy spawns 3/4/5/6 projectiles dealing 50%Ranged damage""",0
+11003,Cacti Club,cacti_club,1,4,3,74,30,0.8,1.5,0.3,2,200,0,8,"""Hitting and enemy spawns 3/4/5/6 projectiles dealing 50%Ranged damage""",0
+11004,Cacti Club,cacti_club,1,4,4,149,50,0.8,1.34,0.3,2,200,0,8,"""Hitting and enemy spawns 3/4/5/6 projectiles dealing 50%Ranged damage""",0
+12001,Fist,fist,1,2,1,10,8,1,0.76,0.1,1.5,150,0,15,"""""",0
+12002,Fist,fist,1,2,2,22,16,1,0.7,0.1,1.5,150,0,15,"""""",0
+12003,Fist,fist,1,2,3,45,32,1,0.67,0.1,1.5,150,0,15,"""""",0
+12004,Fist,fist,1,2,4,91,64,1,0.56,0.1,1.5,150,0,15,"""""",0
+13002,Circular Saw,circular_saw,1,8,2,46,10,1,0.67,0.05,2,175,0.45,0,"""""",0
+13003,Circular Saw,circular_saw,1,8,3,86,15,1,0.61,0.1,2,175,0.5,0,"""""",0
+13004,Circular Saw,circular_saw,1,8,4,173,25,1,0.56,0.2,2,175,0.6,0,"""""",0
+21001,Crossbow,crossbow,2,4,1,18,8,0.5,1.13,0.3,1.5,350,0,8,"""Pierces up to 1 times on critical hit""",
+21002,Crossbow,crossbow,2,4,2,36,10,0.5,1.13,0.35,1.75,350,0,8,"""Pierces up to 2 times on critical hit""",
+21003,Crossbow,crossbow,2,4,3,66,12,0.5,1.13,0.4,2,350,0,8,"""Pierces up to 3 times on critical hit""",
+21004,Crossbow,crossbow,2,4,4,140,15,0.5,1.13,0.45,2.25,350,0,8,"""Pierces up to 4 times on critical hit""",
+22001,Double Barrel Shotgun,double_barrel_shotgun,2,8,1,20,3,0.8,1.37,0.03,2,350,0,8,"""Pierces 2 enemy dealing -30% less to rest of the enemies""",
+22002,Double Barrel Shotgun,double_barrel_shotgun,2,8,2,39,6,0.85,1.28,0.03,2,350,0,8,"""Pierces 2 enemy dealing -30% less to rest of the enemies""",
+22003,Double Barrel Shotgun,double_barrel_shotgun,2,8,3,74,9,0.9,1.2,0.03,2,350,0,8,"""Pierces 2 enemy dealing -30% less to rest of the enemies""",
+22004,Double Barrel Shotgun,double_barrel_shotgun,2,8,4,149,12,1,1.12,0.03,2,350,0,8,"""Pierces 3 enemy dealing -15% less to rest of the enemies""",
+22002,Flamethrower,flamethrower,2,16,2,56,1,0.1,0.12,0,2,300,0,0,"""Deals 3x5(100%Elemental) burning damage Pierces 99 enemies dealing 1 damage""",0
+22003,Flamethrower,flamethrower,2,16,3,103,1,0.1,0.12,0,2,350,0,0,"""Deals 6x6(100%Elemental) burning damage Pierces 99 enemies dealing 1 damage""",0
+22004,Flamethrower,flamethrower,2,16,4,207,1,0.1,0.09,0,2,400,0,0,"""Deals 10x10(100%Elemental) burning damage Pierces 99 enemies dealing 1 damage""",0
