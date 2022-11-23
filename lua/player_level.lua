@@ -101,4 +101,4 @@ local config = {
 		exp = 300,
 	}
 }
- return config
+return config
