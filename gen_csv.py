@@ -4,7 +4,6 @@ import json
 import os
 import os.path
 
-
 # %%
 
 
@@ -93,6 +92,9 @@ for fn in os.listdir('./csv'):
             data = {r[0]:r[1] for r in df.values}
             with open(f'./json/{fn[:-4]}.json', 'w') as f:
                 json.dump(data, f, ensure_ascii=True, indent='\t')
+            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+                f.write('local config = ' + dic_to_lua_str(data) + '\nreturn config')
+                f.close()
             continue
 
         dtype = df.iloc[0]
@@ -113,8 +115,8 @@ for fn in os.listdir('./csv'):
             with open(f'./json/{fn[:-4]}.json', 'w') as f:
                 json.dump(data, f, ensure_ascii=True, indent='\t')
                 f.close()
-            with open(f'./lua/{fn[:-4]}.lua', 'w') as f:
-                f.write('local config = '+ dic_to_lua_str(data) + '\n return config')
+            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+                f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
                 f.close()
         else:
             df.set_index(df.columns[0],inplace=True)
@@ -122,8 +124,8 @@ for fn in os.listdir('./csv'):
             with open(f'./json/{fn[:-4]}.json', 'w') as f:
                 json.dump(data, f, ensure_ascii=True, indent='\t')
                 f.close()
-            with open(f'./lua/{fn[:-4]}.lua', 'w') as f:
-                f.write('local config = '+ dic_to_lua_str(data) + '\n return config')
+            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+                f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
                 f.close()
 
 

@@ -28,4 +28,4 @@ local config =
 		c = '5',
 	},
 }
- return config
+return config
