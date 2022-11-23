@@ -1,6 +1,6 @@
-key,val
-string,int
-#注释,#注释
-aaa,111
-bbb,222
-ccc,333
+key,val.a,val.b,c
+string,int,int,string
+#注释,#注释,#注释,#注释
+aaa,111,33,4
+bbb,222,5,2
+ccc,333,3,5
