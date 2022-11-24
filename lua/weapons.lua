@@ -1,0 +1,508 @@
+local config = 
+{
+	[10101] = 
+	{
+		name = 'weapons1',
+		icon = 'weapons1',
+		type = 1,
+		rarity = 1,
+		class = 1,
+		base_price = 20,
+		attr = 
+		{
+			Damage = 10,
+			AttackSpeed = 1.67,
+			CritChance = 0.3,
+			Range = 200,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.8,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[10102] = 
+	{
+		name = 'weapons1',
+		icon = 'weapons1',
+		type = 1,
+		rarity = 2,
+		class = 1,
+		base_price = 39,
+		attr = 
+		{
+			Damage = 20,
+			AttackSpeed = 1.57,
+			CritChance = 0.3,
+			Range = 200,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.8,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[10103] = 
+	{
+		name = 'weapons1',
+		icon = 'weapons1',
+		type = 1,
+		rarity = 3,
+		class = 1,
+		base_price = 74,
+		attr = 
+		{
+			Damage = 30,
+			AttackSpeed = 1.5,
+			CritChance = 0.3,
+			Range = 200,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.8,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[10104] = 
+	{
+		name = 'weapons1',
+		icon = 'weapons1',
+		type = 1,
+		rarity = 4,
+		class = 1,
+		base_price = 149,
+		attr = 
+		{
+			Damage = 50,
+			AttackSpeed = 1.34,
+			CritChance = 0.3,
+			Range = 200,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.8,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[10201] = 
+	{
+		name = 'weapons2',
+		icon = 'weapons2',
+		type = 1,
+		rarity = 1,
+		class = 1,
+		base_price = 10,
+		attr = 
+		{
+			Damage = 8,
+			AttackSpeed = 0.76,
+			CritChance = 0.1,
+			Range = 150,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 1.5,
+		knockback = 15,
+		unlocked = 0,
+	},
+	[10202] = 
+	{
+		name = 'weapons2',
+		icon = 'weapons2',
+		type = 1,
+		rarity = 2,
+		class = 1,
+		base_price = 22,
+		attr = 
+		{
+			Damage = 16,
+			AttackSpeed = 0.7,
+			CritChance = 0.1,
+			Range = 150,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 1.5,
+		knockback = 15,
+		unlocked = 0,
+	},
+	[10203] = 
+	{
+		name = 'weapons2',
+		icon = 'weapons2',
+		type = 1,
+		rarity = 3,
+		class = 1,
+		base_price = 45,
+		attr = 
+		{
+			Damage = 32,
+			AttackSpeed = 0.67,
+			CritChance = 0.1,
+			Range = 150,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 1.5,
+		knockback = 15,
+		unlocked = 0,
+	},
+	[10204] = 
+	{
+		name = 'weapons2',
+		icon = 'weapons2',
+		type = 1,
+		rarity = 4,
+		class = 1,
+		base_price = 91,
+		attr = 
+		{
+			Damage = 64,
+			AttackSpeed = 0.56,
+			CritChance = 0.1,
+			Range = 150,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 1.5,
+		knockback = 15,
+		unlocked = 0,
+	},
+	[10301] = 
+	{
+		name = 'weapons3',
+		icon = 'weapons3',
+		type = 1,
+		rarity = 1,
+		class = 1,
+		base_price = 46,
+		attr = 
+		{
+			Damage = 10,
+			AttackSpeed = 0.67,
+			CritChance = 0.05,
+			Range = 175,
+			LifeSteal = 0.45,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[10302] = 
+	{
+		name = 'weapons3',
+		icon = 'weapons3',
+		type = 1,
+		rarity = 2,
+		class = 1,
+		base_price = 46,
+		attr = 
+		{
+			Damage = 10,
+			AttackSpeed = 0.67,
+			CritChance = 0.05,
+			Range = 175,
+			LifeSteal = 0.45,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[10303] = 
+	{
+		name = 'weapons3',
+		icon = 'weapons3',
+		type = 1,
+		rarity = 3,
+		class = 1,
+		base_price = 86,
+		attr = 
+		{
+			Damage = 15,
+			AttackSpeed = 0.61,
+			CritChance = 0.1,
+			Range = 175,
+			LifeSteal = 0.5,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[10304] = 
+	{
+		name = 'weapons3',
+		icon = 'weapons3',
+		type = 1,
+		rarity = 4,
+		class = 1,
+		base_price = 173,
+		attr = 
+		{
+			Damage = 25,
+			AttackSpeed = 0.56,
+			CritChance = 0.2,
+			Range = 175,
+			LifeSteal = 0.6,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[20101] = 
+	{
+		name = 'crossbow1',
+		icon = 'crossbow1',
+		type = 2,
+		rarity = 1,
+		class = 1,
+		base_price = 18,
+		attr = 
+		{
+			Damage = 8,
+			AttackSpeed = 1.13,
+			CritChance = 0.3,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.5,
+		crit_chance_scales = 1.5,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20102] = 
+	{
+		name = 'crossbow1',
+		icon = 'crossbow1',
+		type = 2,
+		rarity = 2,
+		class = 1,
+		base_price = 36,
+		attr = 
+		{
+			Damage = 10,
+			AttackSpeed = 1.13,
+			CritChance = 0.35,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.5,
+		crit_chance_scales = 1.75,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20103] = 
+	{
+		name = 'crossbow1',
+		icon = 'crossbow1',
+		type = 2,
+		rarity = 3,
+		class = 1,
+		base_price = 66,
+		attr = 
+		{
+			Damage = 12,
+			AttackSpeed = 1.13,
+			CritChance = 0.4,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.5,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20104] = 
+	{
+		name = 'crossbow1',
+		icon = 'crossbow1',
+		type = 2,
+		rarity = 4,
+		class = 1,
+		base_price = 140,
+		attr = 
+		{
+			Damage = 15,
+			AttackSpeed = 1.13,
+			CritChance = 0.45,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.5,
+		crit_chance_scales = 2.25,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20201] = 
+	{
+		name = 'crossbow2',
+		icon = 'crossbow2',
+		type = 2,
+		rarity = 1,
+		class = 1,
+		base_price = 20,
+		attr = 
+		{
+			Damage = 3,
+			AttackSpeed = 1.37,
+			CritChance = 0.03,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.8,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20202] = 
+	{
+		name = 'crossbow2',
+		icon = 'crossbow2',
+		type = 2,
+		rarity = 2,
+		class = 1,
+		base_price = 39,
+		attr = 
+		{
+			Damage = 6,
+			AttackSpeed = 1.28,
+			CritChance = 0.03,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.85,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20203] = 
+	{
+		name = 'crossbow2',
+		icon = 'crossbow2',
+		type = 2,
+		rarity = 3,
+		class = 1,
+		base_price = 74,
+		attr = 
+		{
+			Damage = 9,
+			AttackSpeed = 1.2,
+			CritChance = 0.03,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.9,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20204] = 
+	{
+		name = 'crossbow2',
+		icon = 'crossbow2',
+		type = 2,
+		rarity = 4,
+		class = 1,
+		base_price = 149,
+		attr = 
+		{
+			Damage = 12,
+			AttackSpeed = 1.12,
+			CritChance = 0.03,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 1.0,
+		crit_chance_scales = 2.0,
+		knockback = 8,
+		unlocked = 0,
+	},
+	[20301] = 
+	{
+		name = 'crossbow3',
+		icon = 'crossbow3',
+		type = 2,
+		rarity = 1,
+		class = 1,
+		base_price = 56,
+		attr = 
+		{
+			Damage = 1,
+			AttackSpeed = 0.12,
+			CritChance = 0.0,
+			Range = 300,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.1,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[20302] = 
+	{
+		name = 'crossbow3',
+		icon = 'crossbow3',
+		type = 2,
+		rarity = 2,
+		class = 1,
+		base_price = 56,
+		attr = 
+		{
+			Damage = 1,
+			AttackSpeed = 0.12,
+			CritChance = 0.0,
+			Range = 300,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.1,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[20303] = 
+	{
+		name = 'crossbow3',
+		icon = 'crossbow3',
+		type = 2,
+		rarity = 3,
+		class = 1,
+		base_price = 103,
+		attr = 
+		{
+			Damage = 1,
+			AttackSpeed = 0.12,
+			CritChance = 0.0,
+			Range = 350,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.1,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+	[20304] = 
+	{
+		name = 'crossbow3',
+		icon = 'crossbow3',
+		type = 2,
+		rarity = 4,
+		class = 1,
+		base_price = 207,
+		attr = 
+		{
+			Damage = 1,
+			AttackSpeed = 0.09,
+			CritChance = 0.0,
+			Range = 400,
+			LifeSteal = 0.0,
+		},
+		damge_scales = 0.1,
+		crit_chance_scales = 2.0,
+		knockback = 0,
+		unlocked = 0,
+	},
+}
+return config
