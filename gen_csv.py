@@ -1,5 +1,6 @@
 # %%
 import pandas as pd
+import numpy as np
 import json
 import os
 import os.path
@@ -83,11 +84,11 @@ def to_depth(data):
                 base_ds[c[-1]] = data[keys[i]]
     return root
 
-
 for fn in os.listdir('./csv'):
     if fn.find('.csv') > 0:
+        print(f'gen {fn}')
         df = pd.read_csv(f"./csv/{fn}")
-
+        df = df.where(df.notnull(), None)
         if fn.find(".const.")>0:
             data = {r[0]:r[1] for r in df.values}
             with open(f'./json/{fn[:-4]}.json', 'w') as f:
@@ -102,13 +103,13 @@ for fn in os.listdir('./csv'):
 
         for c in df.columns:
             if dtype[c] == 'int':
-                df[c] = df[c].apply(int)
+                df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
             if dtype[c] == 'float':
-                df[c] = df[c].astype(float)
+                df[c] = df[c].apply( lambda x: float(x) if x is not None else None)
             if dtype[c] == 'list':
-                df[c] = df[c].apply(eval)
+                df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
             if dtype[c] == 'dict':
-                df[c] = df[c].apply(eval)
+                df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
 
         if fn.find('.list.') > 0:
             data = [to_depth(data) for data in list(df.T.to_dict().values())]
