@@ -70,64 +70,65 @@ def dic_to_lua_str(data,layer=0):
 
 # %%
 def to_depth(data):
-    root = {}
-    keys = list(data.keys())
-    cols = [str.split(c,'.') for c in keys]
-    for i,c in enumerate(cols):
-        base_ds = root
-        for j,d in enumerate(c):
-            if d not in base_ds:
-                base_ds[d] = {}
-            if j < len(c)-1:
-                base_ds = base_ds[d]
-            else:
-                base_ds[c[-1]] = data[keys[i]]
-    return root
+	root = {}
+	keys = list(data.keys())
+	cols = [str.split(c,'.') for c in keys]
+	for i,c in enumerate(cols):
+		base_ds = root
+		if not pd.isna(data[keys[i]]):
+			for j,d in enumerate(c):
+				if d not in base_ds:
+					base_ds[d] = {}
+				if j < len(c)-1:
+					base_ds = base_ds[d]
+				else:
+					base_ds[c[-1]] = data[keys[i]]
+	return root
 
 for fn in os.listdir('./csv'):
-    if fn.find('.csv') > 0:
-        print(f'gen {fn}')
-        df = pd.read_csv(f"./csv/{fn}")
-        df = df.where(df.notnull(), None)
-        if fn.find(".const.")>0:
-            data = {r[0]:r[1] for r in df.values}
-            with open(f'./json/{fn[:-4]}.json', 'w') as f:
-                json.dump(data, f, ensure_ascii=True, indent='\t')
-            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-                f.write('local config = ' + dic_to_lua_str(data) + '\nreturn config')
-                f.close()
-            continue
+	if fn.find('.csv') > 0:
+		df = pd.read_csv(f"./csv/{fn}")
+		df = df.where(df.notnull(), None)
 
-        dtype = df.iloc[0]
-        df = df[2:]
+		if fn.find(".const.")>0:
+			data = {r[0]:r[1] for r in df.values}
+			with open(f'./json/{fn[:-4]}.json', 'w') as f:
+				json.dump(data, f, ensure_ascii=True, indent='\t')
+			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+				f.write('local config = ' + dic_to_lua_str(data) + '\nreturn config')
+				f.close()
+			continue
 
-        for c in df.columns:
-            if dtype[c] == 'int':
-                df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
-            if dtype[c] == 'float':
-                df[c] = df[c].apply( lambda x: float(x) if x is not None else None)
-            if dtype[c] == 'list':
-                df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
-            if dtype[c] == 'dict':
-                df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+		dtype = df.iloc[0]
+		df = df[2:]
 
-        if fn.find('.list.') > 0:
-            data = [to_depth(data) for data in list(df.T.to_dict().values())]
-            with open(f'./json/{fn[:-4]}.json', 'w') as f:
-                json.dump(data, f, ensure_ascii=True, indent='\t')
-                f.close()
-            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-                f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
-                f.close()
-        else:
-            df.set_index(df.columns[0],inplace=True)
-            data = {key:to_depth(data) for key,data in df.T.to_dict().items()}
-            with open(f'./json/{fn[:-4]}.json', 'w') as f:
-                json.dump(data, f, ensure_ascii=True, indent='\t')
-                f.close()
-            with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-                f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
-                f.close()
+		for c in df.columns:
+			if dtype[c] == 'int':
+				df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
+			if dtype[c] == 'float':
+				df[c] = df[c].apply(lambda x: float(x) if x is not None else None)
+			if dtype[c] == 'list':
+				df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+			if dtype[c] == 'dict':
+				df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+
+		if fn.find('.list.') > 0:
+			data = [to_depth(data) for data in list(df.T.to_dict().values())]
+			with open(f'./json/{fn[:-4]}.json', 'w') as f:
+				json.dump(data, f, ensure_ascii=True, indent='\t')
+				f.close()
+			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+				f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
+				f.close()
+		else:
+			df.set_index(df.columns[0],inplace=True)
+			data = {key:to_depth(data) for key,data in df.T.to_dict().items()}
+			with open(f'./json/{fn[:-4]}.json', 'w') as f:
+				json.dump(data, f, ensure_ascii=True, indent='\t')
+				f.close()
+			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
+				f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
+				f.close()
 
 
 
