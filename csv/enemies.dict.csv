@@ -1,4 +1,4 @@
-id,name,hp,speed,damage,hp_per_wave,damage_per_wave,coins_dropped,food_drop_rate,container_drop_rate,first_wave
+id,name,attr.MaxHp,attr.Speed,attr.Damage,hp_per_wave,damage_per_wave,coins_dropped,food_drop_rate,container_drop_rate,first_wave
 int,string,int,int,int,int,int,int,float,float,int
 #怪物编号,#名字,#生命,#速度,#伤害,#每波增加生命,#每波增加伤害,#金币掉落,#食物掉落概率,#道具掉落概率,#最早出现时机
 1,monster1,1,100,1,1,1,1,0,0,1

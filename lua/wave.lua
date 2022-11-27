@@ -46,38 +46,6 @@ local config = {
 	},
 	{
 		wave = 12,
-		time = 60,
-	},
-	{
-		wave = 13,
-		time = 60,
-	},
-	{
-		wave = 14,
-		time = 60,
-	},
-	{
-		wave = 15,
-		time = 60,
-	},
-	{
-		wave = 16,
-		time = 60,
-	},
-	{
-		wave = 17,
-		time = 60,
-	},
-	{
-		wave = 18,
-		time = 60,
-	},
-	{
-		wave = 19,
-		time = 60,
-	},
-	{
-		wave = 20,
 		time = 90,
 	}
 }

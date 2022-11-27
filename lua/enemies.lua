@@ -3,9 +3,12 @@ local config =
 	[1] = 
 	{
 		name = 'monster1',
-		hp = 1,
-		speed = 100,
-		damage = 1,
+		attr = 
+		{
+			MaxHp = 1,
+			Speed = 100,
+			Damage = 1,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -16,9 +19,12 @@ local config =
 	[2] = 
 	{
 		name = 'monster2',
-		hp = 2,
-		speed = 101,
-		damage = 2,
+		attr = 
+		{
+			MaxHp = 2,
+			Speed = 101,
+			Damage = 2,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -29,9 +35,12 @@ local config =
 	[3] = 
 	{
 		name = 'monster3',
-		hp = 3,
-		speed = 102,
-		damage = 3,
+		attr = 
+		{
+			MaxHp = 3,
+			Speed = 102,
+			Damage = 3,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -42,9 +51,12 @@ local config =
 	[4] = 
 	{
 		name = 'monster4',
-		hp = 4,
-		speed = 103,
-		damage = 4,
+		attr = 
+		{
+			MaxHp = 4,
+			Speed = 103,
+			Damage = 4,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -55,9 +67,12 @@ local config =
 	[5] = 
 	{
 		name = 'monster5',
-		hp = 5,
-		speed = 104,
-		damage = 5,
+		attr = 
+		{
+			MaxHp = 5,
+			Speed = 104,
+			Damage = 5,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -68,9 +83,12 @@ local config =
 	[6] = 
 	{
 		name = 'monster6',
-		hp = 6,
-		speed = 105,
-		damage = 6,
+		attr = 
+		{
+			MaxHp = 6,
+			Speed = 105,
+			Damage = 6,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -81,9 +99,12 @@ local config =
 	[7] = 
 	{
 		name = 'monster7',
-		hp = 7,
-		speed = 106,
-		damage = 7,
+		attr = 
+		{
+			MaxHp = 7,
+			Speed = 106,
+			Damage = 7,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -94,9 +115,12 @@ local config =
 	[8] = 
 	{
 		name = 'monster8',
-		hp = 8,
-		speed = 107,
-		damage = 8,
+		attr = 
+		{
+			MaxHp = 8,
+			Speed = 107,
+			Damage = 8,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -107,9 +131,12 @@ local config =
 	[9] = 
 	{
 		name = 'monster9',
-		hp = 9,
-		speed = 108,
-		damage = 9,
+		attr = 
+		{
+			MaxHp = 9,
+			Speed = 108,
+			Damage = 9,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
@@ -120,9 +147,12 @@ local config =
 	[10] = 
 	{
 		name = 'monster10',
-		hp = 10,
-		speed = 109,
-		damage = 10,
+		attr = 
+		{
+			MaxHp = 10,
+			Speed = 109,
+			Damage = 10,
+		},
 		hp_per_wave = 1,
 		damage_per_wave = 1,
 		coins_dropped = 1,
