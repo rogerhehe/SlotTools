@@ -3,14 +3,16 @@ local config =
 	[1] = 
 	{
 		name = 'monster1',
+		character = 'Zomb1',
 		attr = 
 		{
-			MaxHp = 1,
-			Speed = 100,
-			Damage = 1,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -19,14 +21,16 @@ local config =
 	[2] = 
 	{
 		name = 'monster2',
+		character = 'Zomb2',
 		attr = 
 		{
-			MaxHp = 2,
-			Speed = 101,
-			Damage = 2,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -35,14 +39,16 @@ local config =
 	[3] = 
 	{
 		name = 'monster3',
+		character = 'Zomb3',
 		attr = 
 		{
-			MaxHp = 3,
-			Speed = 102,
-			Damage = 3,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -51,14 +57,16 @@ local config =
 	[4] = 
 	{
 		name = 'monster4',
+		character = 'Zomb4',
 		attr = 
 		{
-			MaxHp = 4,
-			Speed = 103,
-			Damage = 4,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -67,14 +75,16 @@ local config =
 	[5] = 
 	{
 		name = 'monster5',
+		character = 'Zomb1',
 		attr = 
 		{
-			MaxHp = 5,
-			Speed = 104,
-			Damage = 5,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -83,14 +93,16 @@ local config =
 	[6] = 
 	{
 		name = 'monster6',
+		character = 'Zomb2',
 		attr = 
 		{
-			MaxHp = 6,
-			Speed = 105,
-			Damage = 6,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -99,14 +111,16 @@ local config =
 	[7] = 
 	{
 		name = 'monster7',
+		character = 'Zomb3',
 		attr = 
 		{
-			MaxHp = 7,
-			Speed = 106,
-			Damage = 7,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -115,14 +129,16 @@ local config =
 	[8] = 
 	{
 		name = 'monster8',
+		character = 'Zomb4',
 		attr = 
 		{
-			MaxHp = 8,
-			Speed = 107,
-			Damage = 8,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -131,14 +147,16 @@ local config =
 	[9] = 
 	{
 		name = 'monster9',
+		character = 'Zomb1',
 		attr = 
 		{
-			MaxHp = 9,
-			Speed = 108,
-			Damage = 9,
+			MaxHp = 100,
+			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
@@ -147,14 +165,16 @@ local config =
 	[10] = 
 	{
 		name = 'monster10',
+		character = 'Zomb2',
 		attr = 
 		{
-			MaxHp = 10,
-			Speed = 109,
+			MaxHp = 100,
 			Damage = 10,
+			Armor = 0,
+			Speed = 0.0,
 		},
-		hp_per_wave = 1,
-		damage_per_wave = 1,
+		hp_per_wave = 10,
+		damage_per_wave = 10,
 		coins_dropped = 1,
 		food_drop_rate = 0.0,
 		container_drop_rate = 0.0,
