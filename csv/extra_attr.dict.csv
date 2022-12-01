@@ -1,7 +1,7 @@
 id,name,icon,max_lv,attr_name,attr_init,attr_incr
 int,string,string,int,string,float,float
 #唯一标识,#名字,#图标,#最高等级,#属性名,#初始值,#增量
-1,Extra1,extra1,4,MaxHP,1,2
+1,Extra1,extra1,4,MaxHp,1,2
 2,Extra2,extra2,4,MeleeDamage,1,1
 3,Extra3,extra3,4,RangedDamage,1,1
 4,Extra4,extra4,4,Armor,15,15

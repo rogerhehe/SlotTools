@@ -5,7 +5,7 @@ local config =
 		name = 'Extra1',
 		icon = 'extra1',
 		max_lv = 4,
-		attr_name = 'MaxHP',
+		attr_name = 'MaxHp',
 		attr_init = 1.0,
 		attr_incr = 2.0,
 	},
