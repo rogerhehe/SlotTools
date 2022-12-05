@@ -75,14 +75,27 @@ def to_depth(data):
 	cols = [str.split(c,'.') for c in keys]
 	for i,c in enumerate(cols):
 		base_ds = root
-		if not pd.isna(data[keys[i]]):
-			for j,d in enumerate(c):
-				if d not in base_ds:
-					base_ds[d] = {}
-				if j < len(c)-1:
-					base_ds = base_ds[d]
-				else:
-					base_ds[c[-1]] = data[keys[i]]
+		try:
+			if not pd.isna(data[keys[i]]):
+				for j,d in enumerate(c):
+					if d not in base_ds:
+						base_ds[d] = {}
+					if j < len(c)-1:
+						base_ds = base_ds[d]
+					else:
+						base_ds[c[-1]] = data[keys[i]]
+		except ValueError :
+			if not pd.isna(data[keys[i]]).all():
+				for j,d in enumerate(c):
+					if d not in base_ds:
+						base_ds[d] = {}
+					if j < len(c)-1:
+						base_ds = base_ds[d]
+					else:
+						base_ds[c[-1]] = data[keys[i]]
+		except Exception as e:
+			raise e
+			
 	return root
 
 for fn in os.listdir('./csv'):

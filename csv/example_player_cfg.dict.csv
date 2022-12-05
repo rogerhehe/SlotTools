@@ -1,6 +1,6 @@
-key,val.a,val.b,c
-string,int,int,string
-#注释,#注释,#注释,#注释
-aaa,111,33,4
-bbb,222,5,2
-ccc,333,3,5
+key,val.a,val.b,c,d
+string,int,int,string,list
+#注释,#注释,#注释,#注释,    
+aaa,111,33,4,"[123,2234]"
+bbb,222,,2,"[321,8888]"
+ccc,333,3,5,"[312]"
