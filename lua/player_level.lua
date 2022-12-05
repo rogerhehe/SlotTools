@@ -2,103 +2,103 @@ local config = {
 	
 	{
 		level = 1,
-		exp = 100,
+		exp = 10,
 	},
 	{
 		level = 2,
-		exp = 200,
+		exp = 20,
 	},
 	{
 		level = 3,
-		exp = 300,
+		exp = 30,
 	},
 	{
 		level = 4,
-		exp = 400,
+		exp = 40,
 	},
 	{
 		level = 5,
-		exp = 500,
+		exp = 50,
 	},
 	{
 		level = 6,
-		exp = 600,
+		exp = 60,
 	},
 	{
 		level = 7,
-		exp = 700,
+		exp = 70,
 	},
 	{
 		level = 8,
-		exp = 800,
+		exp = 80,
 	},
 	{
 		level = 9,
-		exp = 900,
+		exp = 90,
 	},
 	{
 		level = 10,
-		exp = 1100,
+		exp = 100,
 	},
 	{
 		level = 11,
-		exp = 1200,
+		exp = 110,
 	},
 	{
 		level = 12,
-		exp = 1300,
+		exp = 120,
 	},
 	{
 		level = 13,
-		exp = 1400,
+		exp = 130,
 	},
 	{
 		level = 14,
-		exp = 1500,
+		exp = 140,
 	},
 	{
 		level = 15,
-		exp = 1600,
+		exp = 150,
 	},
 	{
 		level = 16,
-		exp = 1700,
+		exp = 160,
 	},
 	{
 		level = 17,
-		exp = 1800,
+		exp = 170,
 	},
 	{
 		level = 18,
-		exp = 1900,
+		exp = 180,
 	},
 	{
 		level = 19,
-		exp = 2000,
+		exp = 190,
 	},
 	{
 		level = 20,
-		exp = 2100,
+		exp = 200,
 	},
 	{
 		level = 21,
-		exp = 2200,
+		exp = 210,
 	},
 	{
 		level = 22,
-		exp = 2300,
+		exp = 220,
 	},
 	{
 		level = 23,
-		exp = 2400,
+		exp = 230,
 	},
 	{
 		level = 24,
-		exp = 2500,
+		exp = 240,
 	},
 	{
 		level = 25,
-		exp = 2600,
+		exp = 250,
 	}
 }
 return config
