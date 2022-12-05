@@ -17,14 +17,14 @@ local config =
 			Speed = 0.0,
 		},
 		weapons = {
-			1
+			10101,10501
 		},
 		unlocked = 0,
 	},
 	[2] = 
 	{
 		name = 'Hero2',
-		character = 'Hero1',
+		character = 'Hero2',
 		icon = 'hero2',
 		attr = 
 		{
@@ -38,14 +38,14 @@ local config =
 			Speed = 0.0,
 		},
 		weapons = {
-			2
+			10201,10601
 		},
 		unlocked = 0,
 	},
 	[3] = 
 	{
 		name = 'Hero3',
-		character = 'Hero1',
+		character = 'Hero3',
 		icon = 'hero3',
 		attr = 
 		{
@@ -59,14 +59,14 @@ local config =
 			Speed = 0.0,
 		},
 		weapons = {
-			3
+			10301,10701
 		},
 		unlocked = 0,
 	},
 	[4] = 
 	{
 		name = 'Hero4',
-		character = 'Hero1',
+		character = 'Hero4',
 		icon = 'hero4',
 		attr = 
 		{
@@ -80,7 +80,7 @@ local config =
 			Speed = 0.0,
 		},
 		weapons = {
-			4
+			10401,10201
 		},
 		unlocked = 0,
 	},
