@@ -1,8 +1,7 @@
 id,name,character,icon,attr.MaxHp,attr.MeleeDamage,attr.RangedDamage,attr.Armor,attr.AttackSpeed,attr.CritChance,attr.Dodge,attr.Speed,unlocked
 int,string,string,string,int,int,int,int,float,float,float,float,int
 #唯一编号,#名字,#角色模型,#图标,#最大生命值,#近战伤害,#远程伤害,#护甲,#%攻击速度,#%暴击率,#%闪避,#%速速,#解锁条件
-1,hero1,Soldier1,hero1,100,0,0,100,0.3,0.01,0,0,0
-2,hero2,Soldier1,hero2,100,0,0,100,0.3,0.01,0,0,0
-3,hero3,Soldier1,hero3,100,0,0,100,0.3,0.01,0,0,0
-4,hero4,Soldier1,hero4,100,0,0,100,0.3,0.01,0,0,0
-5,hero5,Soldier1,hero5,100,0,0,100,0.3,0.01,0,0,0
+1,Hero1,Hero1,hero1,100,0,0,10,0.3,0.01,0,0,0
+2,Hero2,Hero1,hero2,100,0,0,10,0.3,0.01,0,0,0
+3,Hero3,Hero1,hero3,100,0,0,10,0.3,0.01,0,0,0
+4,Hero4,Hero1,hero4,100,0,0,10,0.3,0.01,0,0,0
