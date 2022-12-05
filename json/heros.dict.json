@@ -13,6 +13,9 @@
 			"Dodge": 0.0,
 			"Speed": 0.0
 		},
+		"weapons": [
+			1
+		],
 		"unlocked": 0
 	},
 	"2": {
@@ -29,6 +32,9 @@
 			"Dodge": 0.0,
 			"Speed": 0.0
 		},
+		"weapons": [
+			2
+		],
 		"unlocked": 0
 	},
 	"3": {
@@ -45,6 +51,9 @@
 			"Dodge": 0.0,
 			"Speed": 0.0
 		},
+		"weapons": [
+			3
+		],
 		"unlocked": 0
 	},
 	"4": {
@@ -61,6 +70,9 @@
 			"Dodge": 0.0,
 			"Speed": 0.0
 		},
+		"weapons": [
+			4
+		],
 		"unlocked": 0
 	}
 }

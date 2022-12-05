@@ -16,6 +16,9 @@ local config =
 			Dodge = 0.0,
 			Speed = 0.0,
 		},
+		weapons = {
+			1
+		},
 		unlocked = 0,
 	},
 	[2] = 
@@ -33,6 +36,9 @@ local config =
 			CritChance = 0.01,
 			Dodge = 0.0,
 			Speed = 0.0,
+		},
+		weapons = {
+			2
 		},
 		unlocked = 0,
 	},
@@ -52,6 +58,9 @@ local config =
 			Dodge = 0.0,
 			Speed = 0.0,
 		},
+		weapons = {
+			3
+		},
 		unlocked = 0,
 	},
 	[4] = 
@@ -69,6 +78,9 @@ local config =
 			CritChance = 0.01,
 			Dodge = 0.0,
 			Speed = 0.0,
+		},
+		weapons = {
+			4
 		},
 		unlocked = 0,
 	},
