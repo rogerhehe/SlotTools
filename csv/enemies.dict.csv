@@ -1,4 +1,4 @@
 id,name,character,attr.MaxHp,attr.Damage,attr.Armor,attr.Speed,hp_per_wave,damage_per_wave,coins_dropped,food_drop_rate,container_drop_rate,first_wave
 int,string,string,int,int,int,float,int,int,int,float,float,int
 #怪物编号,#名字,#角色模型,#生命,#伤害,#护甲,#速度,#每波增加生命,#每波增加伤害,#金币掉落,#食物掉落概率,#道具掉落概率,#最早出现时机
-1,Enemy1,Enemy1,100,20,0,0,10,10,1,0,0,1
+1,Enemy1,Enemy1,50,20,0,0,10,10,1,0,0,1

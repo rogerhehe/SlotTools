@@ -6,7 +6,7 @@ local config =
 		character = 'Enemy1',
 		attr = 
 		{
-			MaxHp = 100,
+			MaxHp = 50,
 			Damage = 20,
 			Armor = 0,
 			Speed = 0.0,

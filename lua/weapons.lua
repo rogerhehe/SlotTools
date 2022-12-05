@@ -11,7 +11,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.67,
 			CritChance = 0.3,
 			Range = 200,
@@ -34,7 +34,7 @@ local config =
 		base_price = 39,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.57,
 			CritChance = 0.3,
 			Range = 200,
@@ -57,7 +57,7 @@ local config =
 		base_price = 74,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.5,
 			CritChance = 0.3,
 			Range = 200,
@@ -80,7 +80,7 @@ local config =
 		base_price = 149,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.34,
 			CritChance = 0.3,
 			Range = 200,
@@ -103,7 +103,7 @@ local config =
 		base_price = 10,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.76,
 			CritChance = 0.1,
 			Range = 150,
@@ -126,7 +126,7 @@ local config =
 		base_price = 22,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.7,
 			CritChance = 0.1,
 			Range = 150,
@@ -149,7 +149,7 @@ local config =
 		base_price = 45,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.67,
 			CritChance = 0.1,
 			Range = 150,
@@ -172,7 +172,7 @@ local config =
 		base_price = 91,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.56,
 			CritChance = 0.1,
 			Range = 150,
@@ -195,7 +195,7 @@ local config =
 		base_price = 46,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.67,
 			CritChance = 0.05,
 			Range = 175,
@@ -218,7 +218,7 @@ local config =
 		base_price = 46,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.67,
 			CritChance = 0.05,
 			Range = 175,
@@ -241,7 +241,7 @@ local config =
 		base_price = 86,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.61,
 			CritChance = 0.1,
 			Range = 175,
@@ -264,7 +264,7 @@ local config =
 		base_price = 173,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.56,
 			CritChance = 0.2,
 			Range = 175,
@@ -287,7 +287,7 @@ local config =
 		base_price = 18,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.13,
 			CritChance = 0.3,
 			Range = 350,
@@ -310,7 +310,7 @@ local config =
 		base_price = 36,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.13,
 			CritChance = 0.35,
 			Range = 350,
@@ -333,7 +333,7 @@ local config =
 		base_price = 66,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.13,
 			CritChance = 0.4,
 			Range = 350,
@@ -356,7 +356,7 @@ local config =
 		base_price = 140,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.13,
 			CritChance = 0.45,
 			Range = 350,
@@ -379,7 +379,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.37,
 			CritChance = 0.03,
 			Range = 350,
@@ -402,7 +402,7 @@ local config =
 		base_price = 39,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.28,
 			CritChance = 0.03,
 			Range = 350,
@@ -425,7 +425,7 @@ local config =
 		base_price = 74,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.2,
 			CritChance = 0.03,
 			Range = 350,
@@ -448,7 +448,7 @@ local config =
 		base_price = 149,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 1.12,
 			CritChance = 0.03,
 			Range = 350,
@@ -471,7 +471,7 @@ local config =
 		base_price = 56,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.12,
 			CritChance = 0.0,
 			Range = 300,
@@ -494,7 +494,7 @@ local config =
 		base_price = 56,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.12,
 			CritChance = 0.0,
 			Range = 300,
@@ -517,7 +517,7 @@ local config =
 		base_price = 103,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.12,
 			CritChance = 0.0,
 			Range = 350,
@@ -540,7 +540,7 @@ local config =
 		base_price = 207,
 		attr = 
 		{
-			Damage = 50,
+			Damage = 100,
 			AttackSpeed = 0.09,
 			CritChance = 0.0,
 			Range = 400,
