@@ -1,6 +1,6 @@
 id,name,character,icon,attr.MaxHp,attr.MeleeDamage,attr.RangedDamage,attr.Armor,attr.Damage,attr.AttackSpeed,attr.CritChance,attr.Dodge,attr.Speed,attr.LifeSteal,weapons,unlocked
 int,string,string,string,int,int,int,int,float,float,float,float,float,float,list,int
-#唯一编号,#名字,#角色模型,#图标,#最大生命值,#近战伤害,#远程伤害,#护甲,#%伤害增益,#%攻击速度,#%暴击率,#%闪避,#%速速,#%生命窃取,#专属武器,#解锁条件
+#唯一编号,#名字,#角色模型,#图标,#最大生命值,#近战伤害,#远程伤害,#护甲,#%伤害增益,#%攻击速度,#%暴击率,#%闪避,#%移动速度,#%生命窃取,#专属武器,#解锁条件
 1,Hero1,Hero1,hero1,100,0,0,10,0,0,0,0,0,0,"[10101,10501]",0
 2,Hero2,Hero2,hero2,100,0,0,10,0,0,0,0,0,0,"[10201,10601]",0
 3,Hero3,Hero3,hero3,100,0,0,10,0,0,0,0,0,0,"[10301,10701]",0

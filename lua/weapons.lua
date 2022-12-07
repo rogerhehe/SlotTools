@@ -3,8 +3,8 @@ local config =
 	[10101] = 
 	{
 		name = 'Pistol',
-		icon = 'pistol',
 		model = 'Pistol',
+		icon = 'pistol',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -28,8 +28,8 @@ local config =
 	[10102] = 
 	{
 		name = 'Pistol',
-		icon = 'pistol',
 		model = 'Pistol',
+		icon = 'pistol',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -53,8 +53,8 @@ local config =
 	[10103] = 
 	{
 		name = 'Pistol',
-		icon = 'pistol',
 		model = 'Pistol',
+		icon = 'pistol',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -78,8 +78,8 @@ local config =
 	[10104] = 
 	{
 		name = 'Pistol',
-		icon = 'pistol',
 		model = 'Pistol',
+		icon = 'pistol',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -103,8 +103,8 @@ local config =
 	[10201] = 
 	{
 		name = 'Shotgun',
-		icon = 'shotgun',
 		model = 'Shotgun',
+		icon = 'shotgun',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -128,8 +128,8 @@ local config =
 	[10202] = 
 	{
 		name = 'Shotgun',
-		icon = 'shotgun',
 		model = 'Shotgun',
+		icon = 'shotgun',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -153,8 +153,8 @@ local config =
 	[10203] = 
 	{
 		name = 'Shotgun',
-		icon = 'shotgun',
 		model = 'Shotgun',
+		icon = 'shotgun',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -178,8 +178,8 @@ local config =
 	[10204] = 
 	{
 		name = 'Shotgun',
-		icon = 'shotgun',
 		model = 'Shotgun',
+		icon = 'shotgun',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -203,8 +203,8 @@ local config =
 	[10301] = 
 	{
 		name = 'SMG',
-		icon = 'smg',
 		model = 'SMG',
+		icon = 'smg',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -228,8 +228,8 @@ local config =
 	[10302] = 
 	{
 		name = 'SMG',
-		icon = 'smg',
 		model = 'SMG',
+		icon = 'smg',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -253,8 +253,8 @@ local config =
 	[10303] = 
 	{
 		name = 'SMG',
-		icon = 'smg',
 		model = 'SMG',
+		icon = 'smg',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -278,8 +278,8 @@ local config =
 	[10304] = 
 	{
 		name = 'SMG',
-		icon = 'smg',
 		model = 'SMG',
+		icon = 'smg',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -303,8 +303,8 @@ local config =
 	[10401] = 
 	{
 		name = 'Sniper',
-		icon = 'sniper',
 		model = 'Sniper',
+		icon = 'sniper',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -328,8 +328,8 @@ local config =
 	[10402] = 
 	{
 		name = 'Sniper',
-		icon = 'sniper',
 		model = 'Sniper',
+		icon = 'sniper',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -353,8 +353,8 @@ local config =
 	[10403] = 
 	{
 		name = 'Sniper',
-		icon = 'sniper',
 		model = 'Sniper',
+		icon = 'sniper',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -378,8 +378,8 @@ local config =
 	[10404] = 
 	{
 		name = 'Sniper',
-		icon = 'sniper',
 		model = 'Sniper',
+		icon = 'sniper',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -403,8 +403,8 @@ local config =
 	[10501] = 
 	{
 		name = 'Minigun',
-		icon = 'minigun',
 		model = 'Minigun',
+		icon = 'minigun',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -428,8 +428,8 @@ local config =
 	[10502] = 
 	{
 		name = 'Minigun',
-		icon = 'minigun',
 		model = 'Minigun',
+		icon = 'minigun',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -453,8 +453,8 @@ local config =
 	[10503] = 
 	{
 		name = 'Minigun',
-		icon = 'minigun',
 		model = 'Minigun',
+		icon = 'minigun',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -478,8 +478,8 @@ local config =
 	[10504] = 
 	{
 		name = 'Minigun',
-		icon = 'minigun',
 		model = 'Minigun',
+		icon = 'minigun',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -503,8 +503,8 @@ local config =
 	[10601] = 
 	{
 		name = 'Rocket',
-		icon = 'rocket',
 		model = 'Rocket',
+		icon = 'rocket',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -528,8 +528,8 @@ local config =
 	[10602] = 
 	{
 		name = 'Rocket',
-		icon = 'rocket',
 		model = 'Rocket',
+		icon = 'rocket',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -553,8 +553,8 @@ local config =
 	[10603] = 
 	{
 		name = 'Rocket',
-		icon = 'rocket',
 		model = 'Rocket',
+		icon = 'rocket',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -578,8 +578,8 @@ local config =
 	[10604] = 
 	{
 		name = 'Rocket',
-		icon = 'rocket',
 		model = 'Rocket',
+		icon = 'rocket',
 		type = 1,
 		rarity = 4,
 		class = 1,
@@ -603,8 +603,8 @@ local config =
 	[10701] = 
 	{
 		name = 'Crossbow',
-		icon = 'crossbow',
 		model = 'Crossbow',
+		icon = 'crossbow',
 		type = 1,
 		rarity = 1,
 		class = 1,
@@ -628,8 +628,8 @@ local config =
 	[10702] = 
 	{
 		name = 'Crossbow',
-		icon = 'crossbow',
 		model = 'Crossbow',
+		icon = 'crossbow',
 		type = 1,
 		rarity = 2,
 		class = 1,
@@ -653,8 +653,8 @@ local config =
 	[10703] = 
 	{
 		name = 'Crossbow',
-		icon = 'crossbow',
 		model = 'Crossbow',
+		icon = 'crossbow',
 		type = 1,
 		rarity = 3,
 		class = 1,
@@ -678,8 +678,8 @@ local config =
 	[10704] = 
 	{
 		name = 'Crossbow',
-		icon = 'crossbow',
 		model = 'Crossbow',
+		icon = 'crossbow',
 		type = 1,
 		rarity = 4,
 		class = 1,

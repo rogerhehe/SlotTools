@@ -2,8 +2,8 @@ local config =
 {
 	[1001] = 
 	{
-		name = 'item1',
-		icon = 'item1',
+		name = 'Acid',
+		icon = 'acid',
 		rarity = 1,
 		base_price = 20,
 		attr = 
@@ -24,8 +24,8 @@ local config =
 	},
 	[1002] = 
 	{
-		name = 'item2',
-		icon = 'item2',
+		name = 'Alloy',
+		icon = 'alloy',
 		rarity = 1,
 		base_price = 20,
 		attr = 
@@ -46,8 +46,8 @@ local config =
 	},
 	[1003] = 
 	{
-		name = 'item3',
-		icon = 'item3',
+		name = 'Bandana',
+		icon = 'bandana',
 		rarity = 1,
 		base_price = 30,
 		attr = 
@@ -68,8 +68,8 @@ local config =
 	},
 	[1004] = 
 	{
-		name = 'item4',
-		icon = 'item4',
+		name = 'BigArms',
+		icon = 'big_arms',
 		rarity = 1,
 		base_price = 8,
 		attr = 
@@ -90,8 +90,8 @@ local config =
 	},
 	[1005] = 
 	{
-		name = 'item5',
-		icon = 'item5',
+		name = 'BlackBelt',
+		icon = 'black_belt',
 		rarity = 1,
 		base_price = 25,
 		attr = 
@@ -112,8 +112,8 @@ local config =
 	},
 	[1006] = 
 	{
-		name = 'item6',
-		icon = 'item6',
+		name = 'Book',
+		icon = 'book',
 		rarity = 1,
 		base_price = 30,
 		attr = 
@@ -134,8 +134,8 @@ local config =
 	},
 	[1007] = 
 	{
-		name = 'item7',
-		icon = 'item7',
+		name = 'BowlerHat',
+		icon = 'bowler_hat',
 		rarity = 1,
 		base_price = 15,
 		attr = 
@@ -156,8 +156,8 @@ local config =
 	},
 	[1008] = 
 	{
-		name = 'item8',
-		icon = 'item8',
+		name = 'Charcoal',
+		icon = 'charcoal',
 		rarity = 1,
 		base_price = 20,
 		attr = 
@@ -178,8 +178,8 @@ local config =
 	},
 	[1009] = 
 	{
-		name = 'item9',
-		icon = 'item9',
+		name = 'Cape',
+		icon = 'cape',
 		rarity = 1,
 		base_price = 20,
 		attr = 
@@ -200,8 +200,8 @@ local config =
 	},
 	[1010] = 
 	{
-		name = 'item10',
-		icon = 'item10',
+		name = 'Charcoal',
+		icon = 'charcoal',
 		rarity = 1,
 		base_price = 15,
 		attr = 
@@ -222,8 +222,8 @@ local config =
 	},
 	[2001] = 
 	{
-		name = 'item20',
-		icon = 'item20',
+		name = 'Coffee',
+		icon = 'coffee',
 		rarity = 2,
 		base_price = 65,
 		attr = 
@@ -244,8 +244,8 @@ local config =
 	},
 	[2002] = 
 	{
-		name = 'item21',
-		icon = 'item21',
+		name = 'Cog',
+		icon = 'cog',
 		rarity = 2,
 		base_price = 55,
 		attr = 
@@ -266,8 +266,8 @@ local config =
 	},
 	[2003] = 
 	{
-		name = 'item22',
-		icon = 'item22',
+		name = 'Coupon',
+		icon = 'coupon',
 		rarity = 2,
 		base_price = 45,
 		attr = 
@@ -288,8 +288,8 @@ local config =
 	},
 	[2004] = 
 	{
-		name = 'item23',
-		icon = 'item23',
+		name = 'Crown',
+		icon = 'crown',
 		rarity = 2,
 		base_price = 50,
 		attr = 
@@ -310,8 +310,8 @@ local config =
 	},
 	[2005] = 
 	{
-		name = 'item24',
-		icon = 'item24',
+		name = 'Cyberball',
+		icon = 'cyberball',
 		rarity = 2,
 		base_price = 40,
 		attr = 
@@ -332,8 +332,8 @@ local config =
 	},
 	[2006] = 
 	{
-		name = 'item25',
-		icon = 'item25',
+		name = 'Diploma',
+		icon = 'diploma',
 		rarity = 2,
 		base_price = 35,
 		attr = 
@@ -354,8 +354,8 @@ local config =
 	},
 	[2007] = 
 	{
-		name = 'item26',
-		icon = 'item26',
+		name = 'EnergyBracelet',
+		icon = 'energy_bracelet',
 		rarity = 2,
 		base_price = 40,
 		attr = 
@@ -376,8 +376,8 @@ local config =
 	},
 	[2008] = 
 	{
-		name = 'item27',
-		icon = 'item27',
+		name = 'ExplosiveTurret',
+		icon = 'explosive_turret',
 		rarity = 2,
 		base_price = 45,
 		attr = 
@@ -398,8 +398,8 @@ local config =
 	},
 	[2009] = 
 	{
-		name = 'item28',
-		icon = 'item28',
+		name = 'Exoskeleton',
+		icon = 'exoskeleton',
 		rarity = 2,
 		base_price = 45,
 		attr = 
@@ -420,8 +420,8 @@ local config =
 	},
 	[2010] = 
 	{
-		name = 'item29',
-		icon = 'item29',
+		name = 'HeavyBullets',
+		icon = 'heavy_bullets',
 		rarity = 2,
 		base_price = 45,
 		attr = 
@@ -442,8 +442,8 @@ local config =
 	},
 	[3001] = 
 	{
-		name = 'item30',
-		icon = 'item30',
+		name = 'FuelTank',
+		icon = 'fuel_tank',
 		rarity = 3,
 		base_price = 85,
 		attr = 
@@ -464,8 +464,8 @@ local config =
 	},
 	[3002] = 
 	{
-		name = 'item31',
-		icon = 'item31',
+		name = 'GamblingToken',
+		icon = 'gambling_token',
 		rarity = 3,
 		base_price = 80,
 		attr = 
@@ -486,8 +486,8 @@ local config =
 	},
 	[3003] = 
 	{
-		name = 'item32',
-		icon = 'item32',
+		name = 'Glasses',
+		icon = 'glasses',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -508,8 +508,8 @@ local config =
 	},
 	[3004] = 
 	{
-		name = 'item33',
-		icon = 'item33',
+		name = 'Handcuffs',
+		icon = 'handcuffs',
 		rarity = 3,
 		base_price = 65,
 		attr = 
@@ -530,8 +530,8 @@ local config =
 	},
 	[3005] = 
 	{
-		name = 'item34',
-		icon = 'item34',
+		name = 'JetPack',
+		icon = 'jet_pack',
 		rarity = 3,
 		base_price = 65,
 		attr = 
@@ -552,8 +552,8 @@ local config =
 	},
 	[3006] = 
 	{
-		name = 'item35',
-		icon = 'item35',
+		name = 'Landmines',
+		icon = 'landmines',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -574,8 +574,8 @@ local config =
 	},
 	[3007] = 
 	{
-		name = 'item36',
-		icon = 'item36',
+		name = 'LaserTurret',
+		icon = 'laser_turret',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -596,8 +596,8 @@ local config =
 	},
 	[3008] = 
 	{
-		name = 'item37',
-		icon = 'item37',
+		name = 'Scope',
+		icon = 'scope',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -618,8 +618,8 @@ local config =
 	},
 	[3009] = 
 	{
-		name = 'item38',
-		icon = 'item38',
+		name = 'MedicalTurret',
+		icon = 'medical_turret',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -640,8 +640,8 @@ local config =
 	},
 	[3010] = 
 	{
-		name = 'item39',
-		icon = 'item39',
+		name = 'Medal',
+		icon = 'medal',
 		rarity = 3,
 		base_price = 75,
 		attr = 
@@ -662,8 +662,8 @@ local config =
 	},
 	[4001] = 
 	{
-		name = 'item40',
-		icon = 'item40',
+		name = 'Medikit',
+		icon = 'medikit',
 		rarity = 4,
 		base_price = 90,
 		attr = 
@@ -684,8 +684,8 @@ local config =
 	},
 	[4002] = 
 	{
-		name = 'item41',
-		icon = 'item41',
+		name = 'NightGoggles',
+		icon = 'night_goggles',
 		rarity = 4,
 		base_price = 105,
 		attr = 
@@ -706,8 +706,8 @@ local config =
 	},
 	[4003] = 
 	{
-		name = 'item42',
-		icon = 'item42',
+		name = 'Panda',
+		icon = 'panda',
 		rarity = 4,
 		base_price = 110,
 		attr = 
@@ -728,8 +728,8 @@ local config =
 	},
 	[4004] = 
 	{
-		name = 'item43',
-		icon = 'item43',
+		name = 'TrianglePower',
+		icon = 'triangle_power',
 		rarity = 4,
 		base_price = 100,
 		attr = 
@@ -750,8 +750,8 @@ local config =
 	},
 	[4005] = 
 	{
-		name = 'item44',
-		icon = 'item44',
+		name = 'Turret',
+		icon = 'turret',
 		rarity = 4,
 		base_price = 100,
 		attr = 
@@ -772,8 +772,8 @@ local config =
 	},
 	[4006] = 
 	{
-		name = 'item45',
-		icon = 'item45',
+		name = 'WanderingBot',
+		icon = 'wandering_bot',
 		rarity = 4,
 		base_price = 115,
 		attr = 
@@ -794,8 +794,8 @@ local config =
 	},
 	[4007] = 
 	{
-		name = 'item46',
-		icon = 'item46',
+		name = 'RobotArm',
+		icon = 'robot_arm',
 		rarity = 4,
 		base_price = 90,
 		attr = 
@@ -816,8 +816,8 @@ local config =
 	},
 	[4008] = 
 	{
-		name = 'item47',
-		icon = 'item47',
+		name = 'Toolbox',
+		icon = 'toolbox',
 		rarity = 4,
 		base_price = 90,
 		attr = 
@@ -838,8 +838,8 @@ local config =
 	},
 	[4009] = 
 	{
-		name = 'item48',
-		icon = 'item48',
+		name = 'Torture',
+		icon = 'torture',
 		rarity = 4,
 		base_price = 105,
 		attr = 
@@ -860,8 +860,8 @@ local config =
 	},
 	[4010] = 
 	{
-		name = 'item49',
-		icon = 'item49',
+		name = 'WarriorHelmet',
+		icon = 'warrior_helmet',
 		rarity = 4,
 		base_price = 100,
 		attr = 

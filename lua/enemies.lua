@@ -4,13 +4,14 @@ local config =
 	{
 		name = 'Enemy1',
 		character = 'Enemy1',
-		drop_id = 1,
+		drop_icon = 1,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
@@ -23,13 +24,14 @@ local config =
 	{
 		name = 'Enemy2',
 		character = 'Enemy2',
-		drop_id = 2,
+		drop_icon = 2,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
@@ -42,13 +44,14 @@ local config =
 	{
 		name = 'Enemy3',
 		character = 'Enemy3',
-		drop_id = 3,
+		drop_icon = 3,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
@@ -61,13 +64,14 @@ local config =
 	{
 		name = 'Enemy4',
 		character = 'Enemy4',
-		drop_id = 4,
+		drop_icon = 4,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
@@ -80,13 +84,14 @@ local config =
 	{
 		name = 'Enemy5',
 		character = 'Enemy5',
-		drop_id = 5,
+		drop_icon = 5,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
@@ -99,13 +104,14 @@ local config =
 	{
 		name = 'Enemy6',
 		character = 'Enemy6',
-		drop_id = 6,
+		drop_icon = 6,
 		attr = 
 		{
 			MaxHp = 50,
 			Damage = 10,
 			Armor = 0,
 			Speed = 0.0,
+			AttackSpeed = 0.5,
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
