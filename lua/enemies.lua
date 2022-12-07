@@ -4,7 +4,7 @@ local config =
 	{
 		name = 'Enemy1',
 		character = 'Enemy1',
-		drop_icon = 1,
+		drop_model = 'Coin1',
 		attr = 
 		{
 			MaxHp = 50,
@@ -15,16 +15,16 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 	[2] = 
 	{
 		name = 'Enemy2',
 		character = 'Enemy2',
-		drop_icon = 2,
+		drop_model = 'Coin2',
 		attr = 
 		{
 			MaxHp = 50,
@@ -35,16 +35,16 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 	[3] = 
 	{
 		name = 'Enemy3',
 		character = 'Enemy3',
-		drop_icon = 3,
+		drop_model = 'Coin3',
 		attr = 
 		{
 			MaxHp = 50,
@@ -55,16 +55,16 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 	[4] = 
 	{
 		name = 'Enemy4',
 		character = 'Enemy4',
-		drop_icon = 4,
+		drop_model = 'Coin4',
 		attr = 
 		{
 			MaxHp = 50,
@@ -75,16 +75,16 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 	[5] = 
 	{
 		name = 'Enemy5',
 		character = 'Enemy5',
-		drop_icon = 5,
+		drop_model = 'Coin5',
 		attr = 
 		{
 			MaxHp = 50,
@@ -95,16 +95,16 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 	[6] = 
 	{
 		name = 'Enemy6',
 		character = 'Enemy6',
-		drop_icon = 6,
+		drop_model = 'Coin6',
 		attr = 
 		{
 			MaxHp = 50,
@@ -115,9 +115,9 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		coins_dropped = 1,
+		drop_coins = 1,
 		food_drop_rate = 0.0,
-		container_drop_rate = 0.0,
+		item_drop_rate = 0.0,
 		first_wave = 1,
 	},
 }
