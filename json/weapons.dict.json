@@ -9,14 +9,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.3,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 2.0,
+			"Range": 200,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 50.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -30,14 +32,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.3,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 2.0,
+			"Range": 200,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 50.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -51,14 +55,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.3,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 2.0,
+			"Range": 200,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 50.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -69,17 +75,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.3,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 2.0,
+			"Range": 200,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 50.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -93,14 +101,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 1.5,
+			"Range": 150,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 35.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -114,14 +124,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 1.5,
+			"Range": 150,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 35.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -135,14 +147,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 1.5,
+			"Range": 150,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 35.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -153,17 +167,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.0,
 			"CritDamage": 1.5,
+			"Range": 150,
+			"LifeSteal": 0.0,
 			"Knockback": 10,
-			"BulletSpeed": 35.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -177,14 +193,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.3,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 40.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -198,14 +216,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.3,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 40.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -219,14 +239,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.3,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.5,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.5,
 			"Knockback": 10,
-			"BulletSpeed": 40.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -237,17 +259,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.3,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.2,
-			"Range": 50,
-			"LifeSteal": 0.6,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.6,
 			"Knockback": 10,
-			"BulletSpeed": 40.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -261,14 +285,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -282,14 +308,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -303,14 +331,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.5,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.5,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -321,17 +351,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.0,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.2,
-			"Range": 50,
-			"LifeSteal": 0.6,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.6,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -345,14 +377,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.25,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 45.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -366,14 +400,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.25,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 45.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -387,14 +423,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.25,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.5,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.5,
 			"Knockback": 10,
-			"BulletSpeed": 45.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -405,17 +443,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 0.25,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.2,
-			"Range": 50,
-			"LifeSteal": 0.6,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.6,
 			"Knockback": 10,
-			"BulletSpeed": 45.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -429,14 +469,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -450,14 +492,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -471,14 +515,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.5,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.5,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -489,17 +535,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.2,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.2,
-			"Range": 50,
-			"LifeSteal": 0.6,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.6,
 			"Knockback": 10,
-			"BulletSpeed": 60.0,
-			"BulletLife": 2.0
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -513,14 +561,16 @@
 		"base_price": 20,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.1,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 30.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -534,14 +584,16 @@
 		"base_price": 40,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.1,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.05,
-			"Range": 50,
-			"LifeSteal": 0.45,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.45,
 			"Knockback": 10,
-			"BulletSpeed": 30.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -555,14 +607,16 @@
 		"base_price": 60,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.1,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.1,
-			"Range": 50,
-			"LifeSteal": 0.5,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.5,
 			"Knockback": 10,
-			"BulletSpeed": 30.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	},
@@ -573,17 +627,19 @@
 		"type": 1,
 		"rarity": 4,
 		"class": 1,
-		"base_price": 50,
+		"base_price": 150,
 		"attr": {
 			"Damage": 100,
-			"AttackSpeed": 1.1,
+			"MeleeDamage": 1.0,
+			"RangedDamage": 1.0,
+			"AttackSpeed": 0.1,
 			"CritChance": 0.2,
-			"Range": 50,
-			"LifeSteal": 0.6,
 			"CritDamage": 2.0,
+			"Range": 175,
+			"LifeSteal": 0.6,
 			"Knockback": 10,
-			"BulletSpeed": 30.0,
-			"BulletLife": 1.5
+			"BulletSpeed": 0.1,
+			"BulletLife": 1.2
 		},
 		"unlocked": 0
 	}

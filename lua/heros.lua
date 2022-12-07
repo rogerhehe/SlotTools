@@ -11,10 +11,12 @@ local config =
 			MeleeDamage = 0,
 			RangedDamage = 0,
 			Armor = 10,
-			AttackSpeed = 0.3,
-			CritChance = 0.01,
+			Damage = 0.0,
+			AttackSpeed = 0.0,
+			CritChance = 0.0,
 			Dodge = 0.0,
 			Speed = 0.0,
+			LifeSteal = 0.0,
 		},
 		weapons = {
 			10101,10501
@@ -32,10 +34,12 @@ local config =
 			MeleeDamage = 0,
 			RangedDamage = 0,
 			Armor = 10,
-			AttackSpeed = 0.3,
-			CritChance = 0.01,
+			Damage = 0.0,
+			AttackSpeed = 0.0,
+			CritChance = 0.0,
 			Dodge = 0.0,
 			Speed = 0.0,
+			LifeSteal = 0.0,
 		},
 		weapons = {
 			10201,10601
@@ -53,10 +57,12 @@ local config =
 			MeleeDamage = 0,
 			RangedDamage = 0,
 			Armor = 10,
-			AttackSpeed = 0.3,
-			CritChance = 0.01,
+			Damage = 0.0,
+			AttackSpeed = 0.0,
+			CritChance = 0.0,
 			Dodge = 0.0,
 			Speed = 0.0,
+			LifeSteal = 0.0,
 		},
 		weapons = {
 			10301,10701
@@ -74,13 +80,38 @@ local config =
 			MeleeDamage = 0,
 			RangedDamage = 0,
 			Armor = 10,
-			AttackSpeed = 0.3,
-			CritChance = 0.01,
+			Damage = 0.0,
+			AttackSpeed = 0.0,
+			CritChance = 0.0,
 			Dodge = 0.0,
 			Speed = 0.0,
+			LifeSteal = 0.0,
 		},
 		weapons = {
 			10401,10201
+		},
+		unlocked = 0,
+	},
+	[5] = 
+	{
+		name = 'Hero5',
+		character = 'Hero5',
+		icon = 'hero5',
+		attr = 
+		{
+			MaxHp = 100,
+			MeleeDamage = 0,
+			RangedDamage = 0,
+			Armor = 10,
+			Damage = 0.0,
+			AttackSpeed = 0.0,
+			CritChance = 0.0,
+			Dodge = 0.0,
+			Speed = 0.0,
+			LifeSteal = 0.0,
+		},
+		weapons = {
+			10501,10301
 		},
 		unlocked = 0,
 	},
