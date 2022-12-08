@@ -11,14 +11,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.3,
 			"CritDamage": 2.0,
 			"Range": 200,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -34,14 +35,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.3,
 			"CritDamage": 2.0,
 			"Range": 200,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -57,14 +59,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.3,
 			"CritDamage": 2.0,
 			"Range": 200,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -80,14 +83,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.3,
 			"CritDamage": 2.0,
 			"Range": 200,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -103,14 +107,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 1.5,
 			"Range": 150,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 12.0
 		},
 		"unlocked": 0
 	},
@@ -126,14 +131,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 1.5,
 			"Range": 150,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 12.0
 		},
 		"unlocked": 0
 	},
@@ -149,14 +155,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 1.5,
 			"Range": 150,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 12.0
 		},
 		"unlocked": 0
 	},
@@ -172,14 +179,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 1.5,
 			"Range": 150,
-			"LifeSteal": 0.0,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 12.0
 		},
 		"unlocked": 0
 	},
@@ -195,14 +203,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -218,14 +227,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -241,14 +251,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.5,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -264,14 +275,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.2,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.6,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -287,14 +299,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -310,14 +323,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -333,14 +347,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.5,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -356,14 +371,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.2,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.6,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -379,14 +395,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -402,14 +419,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -425,14 +443,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.5,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -448,14 +467,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.2,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.6,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -471,14 +491,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 15.0
 		},
 		"unlocked": 0
 	},
@@ -494,14 +515,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 15.0
 		},
 		"unlocked": 0
 	},
@@ -517,14 +539,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.5,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 15.0
 		},
 		"unlocked": 0
 	},
@@ -540,14 +563,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.2,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.6,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 15.0
 		},
 		"unlocked": 0
 	},
@@ -563,14 +587,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -586,14 +611,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.05,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.45,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -609,14 +635,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.1,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.5,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	},
@@ -632,14 +659,15 @@
 			"Damage": 100,
 			"MeleeDamage": 1.0,
 			"RangedDamage": 1.0,
-			"AttackSpeed": 0.1,
+			"AttackSpeed": 0.8,
 			"CritChance": 0.2,
 			"CritDamage": 2.0,
 			"Range": 175,
-			"LifeSteal": 0.6,
+			"LifeSteal": 0.1,
 			"Knockback": 10,
-			"BulletSpeed": 0.1,
-			"BulletLife": 1.2
+			"BulletSpeed": 60.0,
+			"BulletLife": 1.2,
+			"BulletRange": 0.0
 		},
 		"unlocked": 0
 	}
