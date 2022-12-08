@@ -38,7 +38,7 @@ local config =
 			AttackSpeed = 0.0,
 			CritChance = 0.0,
 			Dodge = 0.0,
-			Speed = 0.0,
+			Speed = 0.5,
 			LifeSteal = 0.0,
 		},
 		weapons = {
@@ -61,7 +61,7 @@ local config =
 			AttackSpeed = 0.0,
 			CritChance = 0.0,
 			Dodge = 0.0,
-			Speed = 0.0,
+			Speed = 0.8,
 			LifeSteal = 0.0,
 		},
 		weapons = {
@@ -84,7 +84,7 @@ local config =
 			AttackSpeed = 0.0,
 			CritChance = 0.0,
 			Dodge = 0.0,
-			Speed = 0.0,
+			Speed = 1.0,
 			LifeSteal = 0.0,
 		},
 		weapons = {
@@ -107,7 +107,7 @@ local config =
 			AttackSpeed = 0.0,
 			CritChance = 0.0,
 			Dodge = 0.0,
-			Speed = 0.0,
+			Speed = 1.5,
 			LifeSteal = 0.0,
 		},
 		weapons = {
