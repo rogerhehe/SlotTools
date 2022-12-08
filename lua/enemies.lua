@@ -27,7 +27,7 @@ local config =
 		drop_model = 'Coin2',
 		attr = 
 		{
-			MaxHp = 50,
+			MaxHp = 80,
 			Damage = 10,
 			Armor = 0,
 			Speed = 20.0,
@@ -47,8 +47,8 @@ local config =
 		drop_model = 'Coin3',
 		attr = 
 		{
-			MaxHp = 50,
-			Damage = 10,
+			MaxHp = 120,
+			Damage = 12,
 			Armor = 0,
 			Speed = 20.0,
 			AttackSpeed = 0.5,
@@ -67,8 +67,8 @@ local config =
 		drop_model = 'Coin4',
 		attr = 
 		{
-			MaxHp = 50,
-			Damage = 10,
+			MaxHp = 150,
+			Damage = 18,
 			Armor = 0,
 			Speed = 20.0,
 			AttackSpeed = 0.5,
@@ -87,8 +87,8 @@ local config =
 		drop_model = 'Coin5',
 		attr = 
 		{
-			MaxHp = 50,
-			Damage = 10,
+			MaxHp = 200,
+			Damage = 20,
 			Armor = 0,
 			Speed = 20.0,
 			AttackSpeed = 0.5,
@@ -107,8 +107,8 @@ local config =
 		drop_model = 'Coin6',
 		attr = 
 		{
-			MaxHp = 50,
-			Damage = 10,
+			MaxHp = 800,
+			Damage = 30,
 			Armor = 0,
 			Speed = 20.0,
 			AttackSpeed = 0.5,
