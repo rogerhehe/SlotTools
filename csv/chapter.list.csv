@@ -1,0 +1,6 @@
+level,name,icon
+int,string,string
+#关卡,#名字,#图标
+1,Steep Escape,chapter1
+2,Foothill Disorder,chapter2
+3,Forest Edge,chapter3
