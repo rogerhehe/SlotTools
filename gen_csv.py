@@ -98,50 +98,77 @@ def to_depth(data):
 			
 	return root
 
-for fn in os.listdir('./csv'):
-	if fn.find('.csv') > 0:
-		df = pd.read_csv(f"./csv/{fn}")
-		df = df.where(df.notnull(), None)
+def get_gen_info(fn):
+	info = fn.split('.')
+	if len(info) == 3:
+		return info
+	elif len(info) == 2:
+		return info[0],'',info[1]
 
-		if fn.find(".const.")>0:
-			data = {r[0]:r[1] for r in df.values}
-			with open(f'./json/{fn[:-4]}.json', 'w') as f:
-				json.dump(data, f, ensure_ascii=True, indent='\t')
-			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-				f.write('local config = ' + dic_to_lua_str(data) + '\nreturn config')
-				f.close()
-			continue
+def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
+	df = df.where(df.notnull(), None)
 
-		dtype = df.iloc[0]
-		df = df[2:]
+	if c_type=="const":
+		data = {r[0]:r[1] for r in df.values}
+		return data
 
-		for c in df.columns:
-			if dtype[c] == 'int':
-				df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
-			if dtype[c] == 'float':
-				df[c] = df[c].apply(lambda x: float(x) if x is not None else None)
-			if dtype[c] == 'list':
-				df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
-			if dtype[c] == 'dict':
-				df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+	dtype = df.iloc[0]
+	df = df[2:]
 
-		if fn.find('.list.') > 0:
-			data = [to_depth(data) for data in list(df.T.to_dict().values())]
-			with open(f'./json/{fn[:-4]}.json', 'w') as f:
-				json.dump(data, f, ensure_ascii=True, indent='\t')
-				f.close()
-			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-				f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
-				f.close()
-		else:
-			df.set_index(df.columns[0],inplace=True)
-			data = {key:to_depth(data) for key,data in df.T.to_dict().items()}
-			with open(f'./json/{fn[:-4]}.json', 'w') as f:
-				json.dump(data, f, ensure_ascii=True, indent='\t')
-				f.close()
-			with open(f'./lua/{str.split(fn,".")[0]}.lua', 'w') as f:
-				f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
-				f.close()
+	for c in df.columns:
+		if dtype[c] == 'int':
+			df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
+		if dtype[c] == 'float':
+			df[c] = df[c].apply(lambda x: float(x) if x is not None else None)
+		if dtype[c] in ['list','dict']:
+			df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+
+	if c_type == 'list':
+		data = [to_depth(data) for data in list(df.T.to_dict().values())]
+	else:
+		df.set_index(df.columns[0],inplace=True)
+		data = {key:to_depth(data) for key,data in df.T.to_dict().items()}
+	return data
+
+def to_file(data, fn_no_ext, path):
+	path = str.replace(path,'./csv','')
+	os.makedirs(f'./json{path}',exist_ok=True)
+	os.makedirs(f'./lua{path}',exist_ok=True)
+	with open(f'./json{path}/{fn_no_ext}.json', 'w') as f:
+		json.dump(data, f, ensure_ascii=True, indent='\t')
+		f.close()
+	with open(f'./lua{path}/{str.split(fn_no_ext,".")[0]}.lua', 'w') as f:
+		f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
+		f.close()
+
+
+""" os.rmdir('./json',)
+os.rmdir('./lua') """
+
+#%%
+for info in os.walk('./csv'):
+	path,folders,files = info
+	for fn in files:
+		try:
+			c_name,c_type,ext = get_gen_info(fn)
+			if ext == 'csv' :
+				df = pd.read_csv(f"{path}/{fn}")
+				data = dump_config(df,c_type)
+				to_file(data,fn[:-4],path)
+
+			elif ext == 'xlsx' :
+				f = pd.ExcelFile(f"{path}/{fn}")
+				data = None
+				if len(f.sheet_names) > 1:
+					if c_type == 'list':
+						data = [dump_config(f.parse(name),c_type) for name in f.sheet_names]
+					else:
+						data = {name:dump_config(f.parse(name)) for name in f.sheet_names}
+				else:
+					data = dump_config(f.parse(f.sheet_names[0]),c_type)
+				to_file(data,fn[:-5],path)
+		except: 
+			print(fn)
 
 
 
