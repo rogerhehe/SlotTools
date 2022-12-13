@@ -4,7 +4,6 @@ local config =
 	{
 		name = 'Enemy1',
 		character = 'Enemy1',
-		drop_model = 'Coin1',
 		attr = 
 		{
 			MaxHp = 50,
@@ -15,16 +14,21 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin1',
+				DropCount = 1,
+				rate = 0.9,
+			},
+		},
 		first_wave = 1,
 	},
 	[2] = 
 	{
 		name = 'Enemy2',
 		character = 'Enemy2',
-		drop_model = 'Coin2',
 		attr = 
 		{
 			MaxHp = 80,
@@ -35,16 +39,21 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin2',
+				DropCount = 1,
+				rate = 0.9,
+			},
+		},
 		first_wave = 1,
 	},
 	[3] = 
 	{
 		name = 'Enemy3',
 		character = 'Enemy3',
-		drop_model = 'Coin3',
 		attr = 
 		{
 			MaxHp = 120,
@@ -55,16 +64,27 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin3',
+				DropCount = 1,
+				rate = 0.9,
+			},
+			blood = 
+			{
+				DropModel = 'BloodBag',
+				DropCount = 0.1,
+				rate = 50.0,
+			},
+		},
 		first_wave = 1,
 	},
 	[4] = 
 	{
 		name = 'Enemy4',
 		character = 'Enemy4',
-		drop_model = 'Coin4',
 		attr = 
 		{
 			MaxHp = 150,
@@ -75,16 +95,21 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin4',
+				DropCount = 1,
+				rate = 0.9,
+			},
+		},
 		first_wave = 1,
 	},
 	[5] = 
 	{
 		name = 'Enemy5',
 		character = 'Enemy5',
-		drop_model = 'Coin5',
 		attr = 
 		{
 			MaxHp = 200,
@@ -95,16 +120,21 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin5',
+				DropCount = 1,
+				rate = 0.9,
+			},
+		},
 		first_wave = 1,
 	},
 	[6] = 
 	{
 		name = 'Enemy6',
 		character = 'Enemy6',
-		drop_model = 'Coin6',
 		attr = 
 		{
 			MaxHp = 800,
@@ -115,9 +145,15 @@ local config =
 		},
 		hp_per_wave = 5,
 		damage_per_wave = 5,
-		drop_coins = 1,
-		drop_rate = 0.9,
-		item_drop_rate = 0.0,
+		drop = 
+		{
+			coins = 
+			{
+				DropModel = 'Coin6',
+				DropCount = 1,
+				rate = 0.9,
+			},
+		},
 		first_wave = 1,
 	},
 }
