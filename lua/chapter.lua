@@ -2,7 +2,7 @@ local config = {
 	
 	{
 		level = 1,
-		name = 'Steep Escape',
+		name = 'Yellow Desert',
 		icon = 'chapter1',
 		bgm = 'bgm3',
 	},

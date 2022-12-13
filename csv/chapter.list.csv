@@ -1,7 +1,7 @@
 level,name,icon,bgm
 int,string,string,string
 #关卡,#名字,#图标,#背景音
-1,Steep Escape,chapter1,bgm3
+1,Yellow Desert,chapter1,bgm3
 2,Foothill Disorder,chapter2,bgm2
 3,Forest Edge,chapter3,bgm1
 4,Desert Center,chapter4,bgm4
