@@ -167,8 +167,8 @@ for info in os.walk('./csv'):
 				else:
 					data = dump_config(f.parse(f.sheet_names[0]),c_type)
 				to_file(data,fn[:-5],path)
-		except: 
-			print(fn)
+		except Exception as e: 
+			print(f'gen {fn} faild: {e}')
 
 
 

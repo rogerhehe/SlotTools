@@ -16,11 +16,17 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin1',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.3,
+			},
+			Blood = 
+			{
+				DropModel = 'BloodBag',
+				DropCount = 50.0,
+				Rate = 0.1,
 			},
 		},
 		first_wave = 1,
@@ -41,11 +47,11 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin2',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.2,
 			},
 		},
 		first_wave = 1,
@@ -66,17 +72,17 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin3',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.4,
 			},
-			blood = 
+			Blood = 
 			{
 				DropModel = 'BloodBag',
-				DropCount = 0.1,
-				rate = 50.0,
+				DropCount = 50.0,
+				Rate = 0.1,
 			},
 		},
 		first_wave = 1,
@@ -97,11 +103,11 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin4',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.4,
 			},
 		},
 		first_wave = 1,
@@ -122,11 +128,11 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin5',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.5,
 			},
 		},
 		first_wave = 1,
@@ -147,11 +153,11 @@ local config =
 		damage_per_wave = 5,
 		drop = 
 		{
-			coins = 
+			Coin = 
 			{
 				DropModel = 'Coin6',
 				DropCount = 1,
-				rate = 0.9,
+				Rate = 0.2,
 			},
 		},
 		first_wave = 1,
