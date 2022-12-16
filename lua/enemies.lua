@@ -139,8 +139,8 @@ local config =
 	},
 	[6] = 
 	{
-		name = 'Enemy6',
-		character = 'Enemy6',
+		name = 'EnemyBoss1',
+		character = 'EnemyBoss1',
 		attr = 
 		{
 			MaxHp = 800,

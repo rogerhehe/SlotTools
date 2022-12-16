@@ -6,4 +6,4 @@ int,string,string,int,int,int,float,float,int,int,string,int,float,string,float,
 3,Enemy3,Enemy3,120,12,0,20,0.5,5,5,Coin3,1,0.4,BloodBag,50,0.1,1
 4,Enemy4,Enemy4,150,18,0,20,0.5,5,5,Coin4,1,0.4,,,,1
 5,Enemy5,Enemy5,200,20,0,20,0.5,5,5,Coin5,1,0.5,,,,1
-6,Enemy6,Enemy6,800,30,0,20,0.5,5,5,Coin6,1,0.2,,,,1
+6,EnemyBoss1,EnemyBoss1,800,30,0,20,0.5,5,5,Coin6,1,0.2,,,,1
