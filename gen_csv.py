@@ -1,9 +1,16 @@
 # %%
-import pandas as pd
-import numpy as np
 import json
 import os
 import os.path
+import re
+try:
+	import pandas as pd
+except:
+	os.system(f"{sys.executable} -m pip install pandas openpyxl")
+	import pandas as pd
+
+
+
 
 # %%
 
@@ -146,6 +153,9 @@ def to_file(data, fn_no_ext, path):
 os.rmdir('./lua') """
 
 #%%
+config_path = []
+config_file = []
+
 for info in os.walk('./csv'):
 	path,folders,files = info
 	for fn in files:
@@ -169,6 +179,14 @@ for info in os.walk('./csv'):
 				to_file(data,fn[:-5],path)
 		except Exception as e: 
 			print(f'gen {fn} faild: {e}')
+		else:
+			config_path.append(str.replace(path,'./csv',''))
+			config_file.append(str.split(fn,".")[0])
 
+def to_camel(raw:str):
+    return ''.join([s.capitalize() for s in raw.split('_')])
 
+with open('./lua/Cfg.lua','w') as f:
+	f.writelines([f'Cfg{to_camel(cfg[0])} = require "Assets._LuaScripts.Game.Config{cfg[1].replace("/",".")}.{cfg[0]}"\n'   for cfg in zip(config_file,config_path)])
+	f.close()
 
