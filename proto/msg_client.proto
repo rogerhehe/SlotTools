@@ -1,0 +1,28 @@
+syntax="proto3";
+package pb;
+option go_package = './pb';
+
+// 字段规则：-> 字段可出现 0 次或1次
+// 字段规则：repeated -> 字段可出现任意多次（包括 0）
+// 类型：int32、int64、sint32、sint64、string、32-bit ....
+// proto3没有默认值 require optional
+
+message C2GError {
+    string error = 1;
+}
+
+message C2GLogin {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
+
+message G2CLogin {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
