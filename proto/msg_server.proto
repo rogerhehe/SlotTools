@@ -14,19 +14,19 @@ message Server{
     uint32 s_group = 4;
 }
 
-message ReqHandShake{  
+message S2CHandShake{  
     string s_host = 1;
     string s_name = 2;
     uint32 s_group = 3;
 }
 
-message RespHandShake{
+message C2SHandShake{
     map<string, Server> room_server = 1;
     map<string, Server> world_server = 2;
     map<string, Server> game_server = 3;
 }
 
-message SyncEcho{
+message C2SSyncEcho{
     string s_host = 1;
     string s_name = 2;
     uint32 s_online = 3;
