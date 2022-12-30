@@ -26,3 +26,35 @@ message G2CLogin {
     map<string, string> strmap = 4;
     repeated uint32 ilist = 5;
 }
+
+message C2RTest {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
+
+message R2CTest {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
+
+message C2WTest {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
+
+message W2CTest {
+    string msgk = 1;
+    string msgv = 2;
+    uint32 msgp = 3;
+    map<string, string> strmap = 4;
+    repeated uint32 ilist = 5;
+}
