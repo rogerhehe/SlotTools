@@ -49,6 +49,20 @@ message C2SSyncWorldServer{
     map<string, Server> world_server = 1;
 }
 
+message C2SForwardMsg{
+    enum ToType{
+        DEFAULT = 0;
+        SERVER_GAME = 1;
+        SERVER_ROOM = 2;
+        SERVER_WORLD = 3;
+    };
+    ToType to_type = 1;
+    string to_host = 2;
+    uint32 guid = 3;
+    uint32 msg_id = 4;
+    bytes msg_data = 5;
+}
+
 message BroadCast{
     enum OperType{
         DEFAULT = 0;
