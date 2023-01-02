@@ -14,6 +14,27 @@ message Server{
     uint32 s_group = 4;
 }
 
+enum ServerType{
+    DEFAULT = 0;
+    SERVER_GAME = 1;
+    SERVER_ROOM = 2;
+    SERVER_WORLD = 3;
+    SERVER_GM = 4;
+}
+
+message BroadCast{
+    enum OperType{
+        DEFAULT = 0;
+        BROADCAST_GAME = 1;
+        BROADCAST_ROOM = 2;
+        BROADCAST_WORLD = 3;
+    };
+    OperType opertype = 1;
+    string source = 2;
+    string target = 3;
+    bytes data = 4;
+}
+
 message S2CHandShake{  
     string s_host = 1;
     string s_name = 2;
@@ -50,28 +71,10 @@ message C2SSyncWorldServer{
 }
 
 message C2SForwardMsg{
-    enum ToType{
-        DEFAULT = 0;
-        SERVER_GAME = 1;
-        SERVER_ROOM = 2;
-        SERVER_WORLD = 3;
-    };
-    ToType to_type = 1;
+    ServerType to_type = 1;
     string to_host = 2;
-    uint32 guid = 3;
-    uint32 msg_id = 4;
-    bytes msg_data = 5;
-}
-
-message BroadCast{
-    enum OperType{
-        DEFAULT = 0;
-        BROADCAST_GAME = 1;
-        BROADCAST_ROOM = 2;
-        BROADCAST_WORLD = 3;
-    };
-    OperType opertype = 1;
-    string source = 2;
-    string target = 3;
-    bytes data = 4;
+    string from_host = 3;
+    uint32 guid = 4;
+    uint32 msg_id = 5;
+    bytes msg_data = 6;
 }
