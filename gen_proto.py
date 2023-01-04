@@ -1,9 +1,15 @@
 #%%
 import os,re
+import argparse
+
+parser = argparse.ArgumentParser(description='manual to this script')
+parser.add_argument("--dir", type=str, default="gen")
+args = parser.parse_args()
+
 
 proto_map = {}
 pattern = re.compile(r'.+\.proto$')
-out_dir = './gen/lua'
+out_dir = f'./{args.dir}/lua'
 lua_proto_import_path = 'Game.Common.Proto'
 #proto_lua_head = """local proto = {"""
 #proto_lua_tail = """ }\nreturn proto """
