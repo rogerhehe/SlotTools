@@ -13,7 +13,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -22,7 +22,7 @@ local config =
 			Range = 200,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -41,7 +41,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -50,7 +50,7 @@ local config =
 			Range = 200,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -69,7 +69,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -78,7 +78,7 @@ local config =
 			Range = 200,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -97,7 +97,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -106,7 +106,7 @@ local config =
 			Range = 200,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -125,7 +125,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -134,7 +134,7 @@ local config =
 			Range = 150,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 12.0,
 		},
@@ -153,7 +153,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -162,7 +162,7 @@ local config =
 			Range = 150,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 12.0,
 		},
@@ -181,7 +181,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -190,7 +190,7 @@ local config =
 			Range = 150,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 12.0,
 		},
@@ -209,7 +209,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -218,7 +218,7 @@ local config =
 			Range = 150,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 12.0,
 		},
@@ -237,7 +237,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -246,7 +246,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -265,7 +265,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -274,7 +274,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -293,7 +293,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -302,7 +302,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -321,7 +321,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -330,7 +330,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -349,7 +349,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -358,7 +358,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -377,7 +377,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -386,7 +386,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -405,7 +405,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -414,7 +414,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -433,7 +433,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -442,7 +442,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -461,7 +461,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -470,7 +470,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -489,7 +489,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -498,7 +498,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -517,7 +517,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -526,7 +526,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -545,7 +545,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -554,7 +554,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -573,7 +573,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -582,7 +582,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 15.0,
 		},
@@ -601,7 +601,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -610,7 +610,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 15.0,
 		},
@@ -629,7 +629,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -638,7 +638,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 15.0,
 		},
@@ -657,7 +657,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -666,7 +666,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 15.0,
 		},
@@ -685,7 +685,7 @@ local config =
 		base_price = 20,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -694,7 +694,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -713,7 +713,7 @@ local config =
 		base_price = 40,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -722,7 +722,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -741,7 +741,7 @@ local config =
 		base_price = 60,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -750,7 +750,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},
@@ -769,7 +769,7 @@ local config =
 		base_price = 150,
 		attr = 
 		{
-			Damage = 100,
+			Damage = 50,
 			MeleeDamage = 1.0,
 			RangedDamage = 1.0,
 			AttackSpeed = 0.8,
@@ -778,7 +778,7 @@ local config =
 			Range = 175,
 			LifeSteal = 0.1,
 			Knockback = 10,
-			BulletSpeed = 100.0,
+			BulletSpeed = 50.0,
 			BulletLife = 1.2,
 			BulletRange = 0.0,
 		},

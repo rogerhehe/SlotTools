@@ -22,6 +22,7 @@ local config =
 			10101,10501
 		},
 		unlocked = 0,
+		weaponid = 10301,
 	},
 	[2] = 
 	{
@@ -45,6 +46,7 @@ local config =
 			10201,10601
 		},
 		unlocked = 0,
+		weaponid = 10301,
 	},
 	[3] = 
 	{
@@ -68,6 +70,7 @@ local config =
 			10301,10701
 		},
 		unlocked = 0,
+		weaponid = 10301,
 	},
 	[4] = 
 	{
@@ -91,6 +94,7 @@ local config =
 			10401,10201
 		},
 		unlocked = 0,
+		weaponid = 10301,
 	},
 	[5] = 
 	{
@@ -114,6 +118,7 @@ local config =
 			10501,10301
 		},
 		unlocked = 0,
+		weaponid = 10301,
 	},
 }
 return config

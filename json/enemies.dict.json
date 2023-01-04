@@ -6,7 +6,7 @@
 			"MaxHp": 50,
 			"Damage": 10,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,
@@ -32,7 +32,7 @@
 			"MaxHp": 80,
 			"Damage": 10,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,
@@ -53,7 +53,7 @@
 			"MaxHp": 120,
 			"Damage": 12,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,
@@ -79,7 +79,7 @@
 			"MaxHp": 150,
 			"Damage": 18,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,
@@ -100,7 +100,7 @@
 			"MaxHp": 200,
 			"Damage": 20,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,
@@ -121,7 +121,7 @@
 			"MaxHp": 800,
 			"Damage": 30,
 			"Armor": 0,
-			"Speed": 20.0,
+			"Speed": 10.0,
 			"AttackSpeed": 0.5
 		},
 		"hp_per_wave": 5,

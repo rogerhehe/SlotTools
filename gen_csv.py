@@ -5,7 +5,9 @@ import os.path
 import re
 try:
 	import pandas as pd
+	import openpyxl
 except:
+	import sys
 	os.system(f"{sys.executable} -m pip install pandas openpyxl")
 	import pandas as pd
 

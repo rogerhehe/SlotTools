@@ -19,7 +19,8 @@
 			10101,
 			10501
 		],
-		"unlocked": 0
+		"unlocked": 0,
+		"weaponid": 10301
 	},
 	"2": {
 		"name": "Hero2",
@@ -41,7 +42,8 @@
 			10201,
 			10601
 		],
-		"unlocked": 0
+		"unlocked": 0,
+		"weaponid": 10301
 	},
 	"3": {
 		"name": "Hero3",
@@ -63,7 +65,8 @@
 			10301,
 			10701
 		],
-		"unlocked": 0
+		"unlocked": 0,
+		"weaponid": 10301
 	},
 	"4": {
 		"name": "Hero4",
@@ -85,7 +88,8 @@
 			10401,
 			10201
 		],
-		"unlocked": 0
+		"unlocked": 0,
+		"weaponid": 10301
 	},
 	"5": {
 		"name": "Hero5",
@@ -107,6 +111,7 @@
 			10501,
 			10301
 		],
-		"unlocked": 0
+		"unlocked": 0,
+		"weaponid": 10301
 	}
 }
