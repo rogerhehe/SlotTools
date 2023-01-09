@@ -11,20 +11,34 @@ message C2GError {
     string error = 1;
 }
 
+message PlayerInfo {
+    uint32 guid = 1;
+    uint32 level = 2;
+    uint64 exp = 3;
+    uint64 coin = 4;
+    uint32 gem = 5;
+    uint32 point = 6;
+    string nickname = 7;
+    string country = 8;
+    uint32 vipLevel = 9;
+    uint32 vipPoint = 10;
+    uint32 icon = 11;
+    uint32 frame = 12;
+}
+
 message C2GLogin {
-    string msgk = 1;
-    string msgv = 2;
-    uint32 msgp = 3;
-    map<string, string> strmap = 4;
-    repeated uint32 ilist = 5;
+    string credential = 1;
+    string uuid = 2;
+    string devicePass = 3;
+    string version = 4;
+    uint32 platform = 5;
 }
 
 message G2CLogin {
-    string msgk = 1;
-    string msgv = 2;
-    uint32 msgp = 3;
-    map<string, string> strmap = 4;
-    repeated uint32 ilist = 5;
+    string credential = 1;
+    bool isNew =2;
+    bool isAdmin = 3;
+    PlayerInfo playerInfo = 4;
 }
 
 message C2RTest {
