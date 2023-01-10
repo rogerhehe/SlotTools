@@ -28,10 +28,11 @@ message PlayerInfo {
 
 message C2GLogin {
     string credential = 1;
-    string uuid = 2;
-    string devicePass = 3;
-    string version = 4;
-    uint32 platform = 5;
+    string package = 2;
+    string version = 3;
+    string uuid = 4;
+    string deviceModel = 5;
+    uint32 platform = 6;
 }
 
 message G2CLogin {
