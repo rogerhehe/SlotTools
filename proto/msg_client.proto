@@ -11,6 +11,10 @@ message C2GError {
     string error = 1;
 }
 
+message C2GKeepAlive {}
+
+message G2CKeepAlive {}
+
 message PlayerInfo {
     uint32 guid = 1;
     uint32 level = 2;
