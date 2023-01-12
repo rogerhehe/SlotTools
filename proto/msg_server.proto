@@ -51,7 +51,7 @@ message SyncError {
     string error = 1;
 }
 
-message C2SSyncEcho{
+message S2CEcho{
     string s_host = 1;
     string s_name = 2;
     uint32 s_online = 3;

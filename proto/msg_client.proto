@@ -41,7 +41,7 @@ message C2GLogin {
 
 message G2CLogin {
     string credential = 1;
-    bool isNew =2;
+    bool isNew = 2;
     bool isAdmin = 3;
     PlayerInfo playerInfo = 4;
 }
