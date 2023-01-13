@@ -2,19 +2,6 @@ syntax="proto3";
 package pb;
 option go_package = './pb';
 
-// 字段规则：-> 字段可出现 0 次或1次
-// 字段规则：repeated -> 字段可出现任意多次（包括 0）
-// 类型：int32、int64、sint32、sint64、string、32-bit ....
-// proto3没有默认值 require optional
-
-message C2GError {
-    string error = 1;
-}
-
-message C2GKeepAlive {}
-
-message G2CKeepAlive {}
-
 message PlayerInfo {
     uint32 guid = 1;
     uint32 level = 2;
@@ -28,6 +15,18 @@ message PlayerInfo {
     uint32 vipPoint = 10;
     uint32 icon = 11;
     uint32 frame = 12;
+}
+
+message C2GKeepAlive {}
+
+message G2CKeepAlive {}
+
+message C2GError {
+    string error = 1;
+}
+
+message G2CError {
+    string error = 1;
 }
 
 message C2GLogin {
