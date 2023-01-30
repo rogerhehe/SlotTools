@@ -4,8 +4,8 @@ cd $CURPATH
 POJECT_PATH="../UnityClient"
 GEN_PATH_LUA='./lua'
 GEN_PATH_JSON='./json'
-OUTPUT_PATH_LUA='../UnityClient/Assets/_LuaScripts/Game/Config'
-OUTPUT_PATH_JSON='../UnityClient/Assets/_Json'
+OUTPUT_PATH_LUA=$POJECT_PATH'/Assets/_LuaScripts/Game/Config'
+OUTPUT_PATH_JSON=$POJECT_PATH'/Assets/_Json'
 rm -rf $GEN_PATH_JSON $GEN_PATH_LUA
 
 python3 gen_csv.py

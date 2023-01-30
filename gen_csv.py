@@ -179,9 +179,12 @@ for info in os.walk('./csv'):
 				else:
 					data = dump_config(f.parse(f.sheet_names[0]),c_type)
 				to_file(data,fn[:-5],path)
+			else:
+				continue
 		except Exception as e: 
 			print(f'gen {fn} faild: {e}')
 		else:
+			print("append file",fn,str.split(fn,".")[0])
 			config_path.append(str.replace(path,'./csv',''))
 			config_file.append(str.split(fn,".")[0])
 

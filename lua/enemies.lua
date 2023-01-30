@@ -34,7 +34,7 @@ local config =
 	[2] = 
 	{
 		name = 'Enemy2',
-		character = 'Enemy2',
+		character = 'Enemy1',
 		attr = 
 		{
 			MaxHp = 80,
@@ -59,7 +59,7 @@ local config =
 	[3] = 
 	{
 		name = 'Enemy3',
-		character = 'Enemy3',
+		character = 'Enemy1',
 		attr = 
 		{
 			MaxHp = 120,
@@ -90,7 +90,7 @@ local config =
 	[4] = 
 	{
 		name = 'Enemy4',
-		character = 'Enemy4',
+		character = 'Enemy1',
 		attr = 
 		{
 			MaxHp = 150,
@@ -115,7 +115,7 @@ local config =
 	[5] = 
 	{
 		name = 'Enemy5',
-		character = 'Enemy5',
+		character = 'Enemy1',
 		attr = 
 		{
 			MaxHp = 200,
@@ -140,7 +140,7 @@ local config =
 	[6] = 
 	{
 		name = 'EnemyBoss1',
-		character = 'EnemyBoss1',
+		character = 'Enemy1',
 		attr = 
 		{
 			MaxHp = 800,
