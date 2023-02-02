@@ -11,11 +11,7 @@ except:
 	os.system(f"{sys.executable} -m pip install pandas openpyxl")
 	import pandas as pd
 
-
-
-
-# %%
-
+# %% tolua
 
 def space_str(layer):
 	lua_str = ""
@@ -76,8 +72,7 @@ def dic_to_lua_str(data,layer=0):
 		print( d_type , 'is error')
 		return None
  
-
-# %%
+# %% 生成 dict
 def to_depth(data):
 	root = {}
 	keys = list(data.keys())
@@ -85,7 +80,7 @@ def to_depth(data):
 	for i,c in enumerate(cols):
 		base_ds = root
 		try:
-			if not pd.isna(data[keys[i]]):
+			if data[keys[i]] is not None:#not pd.isna(data[keys[i]]):
 				for j,d in enumerate(c):
 					if d not in base_ds:
 						base_ds[d] = {}
@@ -93,15 +88,15 @@ def to_depth(data):
 						base_ds = base_ds[d]
 					else:
 						base_ds[c[-1]] = data[keys[i]]
-		except ValueError :
-			if not pd.isna(data[keys[i]]).all():
-				for j,d in enumerate(c):
-					if d not in base_ds:
-						base_ds[d] = {}
-					if j < len(c)-1:
-						base_ds = base_ds[d]
-					else:
-						base_ds[c[-1]] = data[keys[i]]
+		#except ValueError :
+		#	if not pd.isna(data[keys[i]]).all():
+		#		for j,d in enumerate(c):
+		#			if d not in base_ds:
+		#				base_ds[d] = {}
+		#			if j < len(c)-1:
+		#				base_ds = base_ds[d]
+		#			else:
+		#				base_ds[c[-1]] = data[keys[i]]
 		except Exception as e:
 			raise e
 			
@@ -114,8 +109,11 @@ def get_gen_info(fn):
 	elif len(info) == 2:
 		return info[0],'',info[1]
 
+#pd.options.mode.use_inf_as_na = True
+
 def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
-	df = df.where(df.notnull(), None)
+	df = df.fillna("None")
+	df = df.replace("None",None)
 
 	if c_type=="const":
 		data = {r[0]:r[1] for r in df.values}
@@ -126,11 +124,14 @@ def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
 
 	for c in df.columns:
 		if dtype[c] == 'int':
-			df[c] = df[c].apply(lambda x: int(x) if x is not None else None)
+			df[c] = df[c].apply(lambda x: int(x) if x is not None else None )#is not pd.isna(x) else None)
 		if dtype[c] == 'float':
-			df[c] = df[c].apply(lambda x: float(x) if x is not None else None)
+			df[c] = df[c].apply(lambda x: float(x) if x is not None else None )#is not pd.isna(x) else None)
 		if dtype[c] in ['list','dict']:
-			df[c] = df[c].apply(lambda x: eval(x) if x is not None else None)
+			df[c] = df[c].apply(lambda x: eval(x) if x is not None else None )#is not pd.isna(x) else None)
+
+	df = df.fillna("None")
+	df = df.replace("None",None)
 
 	if c_type == 'list':
 		data = [to_depth(data) for data in list(df.T.to_dict().values())]
@@ -154,7 +155,7 @@ def to_file(data, fn_no_ext, path):
 """ os.rmdir('./json',)
 os.rmdir('./lua') """
 
-#%%
+#%% 导出
 config_path = []
 config_file = []
 
@@ -182,7 +183,8 @@ for info in os.walk('./csv'):
 			else:
 				continue
 		except Exception as e: 
-			print(f'gen {fn} faild: {e}')
+			import traceback
+			print(f'gen {fn} faild: {e} ')#{traceback.format_exc()}
 		else:
 			print("append file",fn,str.split(fn,".")[0])
 			config_path.append(str.replace(path,'./csv',''))
@@ -194,4 +196,3 @@ def to_camel(raw:str):
 with open('./lua/Cfg.lua','w') as f:
 	f.writelines([f'Cfg{to_camel(cfg[0])} = require "Assets._LuaScripts.Game.Config{cfg[1].replace("/",".")}.{cfg[0]}"\n'   for cfg in zip(config_file,config_path)])
 	f.close()
-

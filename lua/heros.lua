@@ -8,20 +8,14 @@ local config =
 		attr = 
 		{
 			MaxHp = 100,
-			MeleeDamage = 0,
-			RangedDamage = 0,
-			Armor = 10,
-			Damage = 0.0,
+			Atk = 3.0,
+			Def = 10,
 			AttackSpeed = 0.0,
-			CritChance = 0.0,
-			Dodge = 0.0,
-			Speed = 0.0,
-			LifeSteal = 0.0,
+			Speed = 1.0,
 		},
 		weapons = {
 			10101,10501
 		},
-		unlocked = 0,
 		weaponid = 10301,
 	},
 	[2] = 
@@ -32,20 +26,14 @@ local config =
 		attr = 
 		{
 			MaxHp = 100,
-			MeleeDamage = 0,
-			RangedDamage = 0,
-			Armor = 10,
-			Damage = 0.0,
+			Atk = 3.0,
+			Def = 10,
 			AttackSpeed = 0.0,
-			CritChance = 0.0,
-			Dodge = 0.0,
-			Speed = 0.1,
-			LifeSteal = 0.0,
+			Speed = 1.0,
 		},
 		weapons = {
 			10201,10601
 		},
-		unlocked = 0,
 		weaponid = 10301,
 	},
 	[3] = 
@@ -56,20 +44,14 @@ local config =
 		attr = 
 		{
 			MaxHp = 100,
-			MeleeDamage = 0,
-			RangedDamage = 0,
-			Armor = 10,
-			Damage = 0.0,
+			Atk = 3.0,
+			Def = 10,
 			AttackSpeed = 0.0,
-			CritChance = 0.0,
-			Dodge = 0.0,
-			Speed = 0.3,
-			LifeSteal = 0.0,
+			Speed = 1.0,
 		},
 		weapons = {
 			10301,10701
 		},
-		unlocked = 0,
 		weaponid = 10301,
 	},
 	[4] = 
@@ -80,20 +62,14 @@ local config =
 		attr = 
 		{
 			MaxHp = 100,
-			MeleeDamage = 0,
-			RangedDamage = 0,
-			Armor = 10,
-			Damage = 0.0,
+			Atk = 3.0,
+			Def = 10,
 			AttackSpeed = 0.0,
-			CritChance = 0.0,
-			Dodge = 0.0,
-			Speed = 0.5,
-			LifeSteal = 0.0,
+			Speed = 1.0,
 		},
 		weapons = {
 			10401,10201
 		},
-		unlocked = 0,
 		weaponid = 10301,
 	},
 	[5] = 
@@ -104,20 +80,14 @@ local config =
 		attr = 
 		{
 			MaxHp = 100,
-			MeleeDamage = 0,
-			RangedDamage = 0,
-			Armor = 10,
-			Damage = 0.0,
+			Atk = 3.0,
+			Def = 10,
 			AttackSpeed = 0.0,
-			CritChance = 0.0,
-			Dodge = 0.0,
-			Speed = 0.7,
-			LifeSteal = 0.0,
+			Speed = 1.0,
 		},
 		weapons = {
 			10501,10301
 		},
-		unlocked = 0,
 		weaponid = 10301,
 	},
 }

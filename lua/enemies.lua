@@ -7,8 +7,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 50,
-			Damage = 10,
-			Armor = 0,
+			Atk = 10,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -28,6 +28,9 @@ local config =
 				DropCount = 50.0,
 				Rate = 0.1,
 			},
+			Item = {
+				
+			},
 		},
 		first_wave = 1,
 	},
@@ -38,8 +41,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 80,
-			Damage = 10,
-			Armor = 0,
+			Atk = 10,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -53,6 +56,9 @@ local config =
 				DropCount = 1,
 				Rate = 0.2,
 			},
+			Item = {
+				
+			},
 		},
 		first_wave = 1,
 	},
@@ -63,8 +69,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 120,
-			Damage = 12,
-			Armor = 0,
+			Atk = 12,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -84,6 +90,9 @@ local config =
 				DropCount = 50.0,
 				Rate = 0.1,
 			},
+			Item = {
+				
+			},
 		},
 		first_wave = 1,
 	},
@@ -94,8 +103,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 150,
-			Damage = 18,
-			Armor = 0,
+			Atk = 18,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -109,6 +118,9 @@ local config =
 				DropCount = 1,
 				Rate = 0.4,
 			},
+			Item = {
+				
+			},
 		},
 		first_wave = 1,
 	},
@@ -119,8 +131,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 200,
-			Damage = 20,
-			Armor = 0,
+			Atk = 20,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -130,9 +142,12 @@ local config =
 		{
 			Coin = 
 			{
-				DropModel = 'Coin5',
+				DropModel = 'Coin4',
 				DropCount = 1,
 				Rate = 0.5,
+			},
+			Item = {
+				
 			},
 		},
 		first_wave = 1,
@@ -144,8 +159,8 @@ local config =
 		attr = 
 		{
 			MaxHp = 800,
-			Damage = 30,
-			Armor = 0,
+			Atk = 30,
+			Def = 0,
 			Speed = 10.0,
 			AttackSpeed = 0.5,
 		},
@@ -155,9 +170,12 @@ local config =
 		{
 			Coin = 
 			{
-				DropModel = 'Coin6',
+				DropModel = 'Coin4',
 				DropCount = 1,
 				Rate = 0.2,
+			},
+			Item = {
+				
 			},
 		},
 		first_wave = 1,
