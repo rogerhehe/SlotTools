@@ -117,7 +117,7 @@ def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
 
 	if c_type=="const":
 		data = {r[0]:r[1] for r in df.values}
-		return data
+		return to_depth(data)
 
 	dtype = df.iloc[0]
 	df = df[2:]
@@ -175,7 +175,9 @@ for info in os.walk('./csv'):
 				if len(f.sheet_names) > 1:
 					if c_type == 'list':
 						data = [dump_config(f.parse(name),c_type) for name in f.sheet_names]
-					else:
+					elif c_type == 'const':
+						data = {name:dump_config(f.parse(name),c_type) for name in f.sheet_names}
+					else :
 						data = {name:dump_config(f.parse(name)) for name in f.sheet_names}
 				else:
 					data = dump_config(f.parse(f.sheet_names[0]),c_type)
