@@ -122,6 +122,8 @@ def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
 	dtype = df.iloc[0]
 	df = df[2:]
 
+	columns = [ c for c in df.columns if c.find('#')<0]
+	df = df[columns]
 	for c in df.columns:
 		if dtype[c] == 'int':
 			df[c] = df[c].apply(lambda x: int(x) if x is not None else None )#is not pd.isna(x) else None)
