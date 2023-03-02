@@ -1,18 +1,25 @@
+# csv to json lua
+POJECT_PATH="../UnityClient"
+
+
 CURPATH=$(cd "$(dirname "$0")"; pwd)
 cd $CURPATH
+GEN_PATH=$CURPATH/out/table
+GEN_PATH_LUA=$GEN_PATH'/lua'
+GEN_PATH_JSON=$GEN_PATH'/json'
+# client
+C_OUTPUT_PATH_LUA=$POJECT_PATH'/Assets/_LuaScripts/Game/Config'
+C_OUTPUT_PATH_JSON=$POJECT_PATH'/Assets/_Json'
+# server
 
-POJECT_PATH="../UnityClient"
-GEN_PATH_LUA='./lua'
-GEN_PATH_JSON='./json'
-OUTPUT_PATH_LUA=$POJECT_PATH'/Assets/_LuaScripts/Game/Config'
-OUTPUT_PATH_JSON=$POJECT_PATH'/Assets/_Json'
-rm -rf $GEN_PATH_JSON $GEN_PATH_LUA
+rm -rf $GEN_PATH
 
-python3 gen_csv.py
+python3 bin/gen_csv.py --input_dir $CURPATH/csv --output_dir $GEN_PATH
 echo "GENERATE CONFIG DONE"
 
-rm -rf $OUTPUT_PATH_JSON $OUTPUT_PATH_LUA
-cp -r $GEN_PATH_JSON $OUTPUT_PATH_JSON
-cp -r $GEN_PATH_LUA $OUTPUT_PATH_LUA
+# copy files to repo
+rm -rf $C_OUTPUT_PATH_JSON $C_OUTPUT_PATH_LUA
+cp -r $GEN_PATH_JSON $C_OUTPUT_PATH_JSON
+cp -r $GEN_PATH_LUA $C_OUTPUT_PATH_LUA
 
 echo "CPOY CONFIG DONE"

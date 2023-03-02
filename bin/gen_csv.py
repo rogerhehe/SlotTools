@@ -10,6 +10,13 @@ except:
 	import sys
 	os.system(f"{sys.executable} -m pip install pandas openpyxl")
 	import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser(description='manual to this script')
+parser.add_argument("--input_dir", type=str, default="")
+parser.add_argument("--output_dir", type=str, default="")
+args = parser.parse_args()
+
 
 # %% tolua
 
@@ -111,7 +118,7 @@ def get_gen_info(fn):
 
 #pd.options.mode.use_inf_as_na = True
 
-def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
+def dump_config(df:pd.DataFrame, c_type:str = '', fn:str = '' ) -> dict:
 	df = df.fillna("None")
 	df = df.replace("None",None)
 
@@ -139,36 +146,39 @@ def dump_config(df:pd.DataFrame,c_type:str = '' ) -> dict:
 		data = [to_depth(data) for data in list(df.T.to_dict().values())]
 	else:
 		df.set_index(df.columns[0],inplace=True)
+		tmp = set()
+		for c in df.T.columns:
+			if c in tmp:
+				print(f"warn : Repetitive <{df.index.name}> find: <{c}> in <{fn}>")
+			tmp.add(c)
 		data = {key:to_depth(data) for key,data in df.T.to_dict().items()}
 	return data
 
 def to_file(data, fn_no_ext, path):
-	path = str.replace(path,'./csv','')
-	os.makedirs(f'./json{path}',exist_ok=True)
-	os.makedirs(f'./lua{path}',exist_ok=True)
-	with open(f'./json{path}/{fn_no_ext}.json', 'w') as f:
+	path = str.replace(path,args.input_dir,'')
+	os.makedirs(f'{args.output_dir}/json{path}',exist_ok=True)
+	os.makedirs(f'{args.output_dir}/lua{path}',exist_ok=True)
+	with open(f'{args.output_dir}/json{path}/{fn_no_ext}.json', 'w') as f:
 		json.dump(data, f, ensure_ascii=True, indent='\t')
 		f.close()
-	with open(f'./lua{path}/{str.split(fn_no_ext,".")[0]}.lua', 'w') as f:
+	with open(f'{args.output_dir}/lua{path}/{str.split(fn_no_ext,".")[0]}.lua', 'w') as f:
 		f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
 		f.close()
 
 
-""" os.rmdir('./json',)
-os.rmdir('./lua') """
 
 #%% 导出
 config_path = []
 config_file = []
 
-for info in os.walk('./csv'):
+for info in os.walk(args.input_dir):
 	path,folders,files = info
 	for fn in files:
 		try:
 			c_name,c_type,ext = get_gen_info(fn)
 			if ext == 'csv' :
 				df = pd.read_csv(f"{path}/{fn}")
-				data = dump_config(df,c_type)
+				data = dump_config(df,c_type,fn)
 				to_file(data,fn[:-4],path)
 
 			elif ext == 'xlsx' :
@@ -176,13 +186,13 @@ for info in os.walk('./csv'):
 				data = None
 				if len(f.sheet_names) > 1:
 					if c_type == 'list':
-						data = [dump_config(f.parse(name),c_type) for name in f.sheet_names]
+						data = [dump_config(f.parse(name),c_type,fn) for name in f.sheet_names]
 					elif c_type == 'const':
-						data = {name:dump_config(f.parse(name),c_type) for name in f.sheet_names}
+						data = {name:dump_config(f.parse(name),c_type,fn) for name in f.sheet_names}
 					else :
-						data = {name:dump_config(f.parse(name)) for name in f.sheet_names}
+						data = {name:dump_config(f.parse(name),fn = fn) for name in f.sheet_names}
 				else:
-					data = dump_config(f.parse(f.sheet_names[0]),c_type)
+					data = dump_config(f.parse(f.sheet_names[0]),c_type,fn)
 				to_file(data,fn[:-5],path)
 			else:
 				continue
@@ -191,12 +201,13 @@ for info in os.walk('./csv'):
 			print(f'gen {fn} faild: {e} ')#{traceback.format_exc()}
 		else:
 			print("append file",fn,str.split(fn,".")[0])
-			config_path.append(str.replace(path,'./csv',''))
+			config_path.append(str.replace(path,args.input_dir,''))
 			config_file.append(str.split(fn,".")[0])
 
 def to_camel(raw:str):
     return ''.join([s.capitalize() for s in raw.split('_')])
 
-with open('./lua/Cfg.lua','w') as f:
+with open(f'{args.output_dir}/lua/Cfg.lua','w') as f:
+	print("write config to",args.output_dir)
 	f.writelines([f'Cfg{to_camel(cfg[0])} = require "Assets._LuaScripts.Game.Config{cfg[1].replace("/",".")}.{cfg[0]}"\n'   for cfg in zip(config_file,config_path)])
 	f.close()

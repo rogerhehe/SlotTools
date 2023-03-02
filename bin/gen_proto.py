@@ -4,19 +4,21 @@ import argparse
 
 parser = argparse.ArgumentParser(description='manual to this script')
 parser.add_argument("--dir", type=str, default="gen")
+parser.add_argument("--script_path", type=str, default="gen")
 args = parser.parse_args()
 
 
 proto_map = {}
 pattern = re.compile(r'.+\.proto$')
-out_dir = f'./{args.dir}/lua'
-lua_proto_import_path = 'Game.Common.Proto'
+out_dir = f'{args.dir}/lua'
+lua_proto_import_path = str.replace(args.script_path,'/','.')
 #proto_lua_head = """local proto = {"""
 #proto_lua_tail = """ }\nreturn proto """
-file_fmt = """local protoc = require "Core.Protobuf.Protoc"
+protoc_path = "Assets._LuaScripts.Core.Protobuf.Protoc"
+file_fmt = """local protoc = require "{0}"
 
 assert(protoc:load [[
-{0}
+{1}
 ]])"""
 
 limporter = []
@@ -36,7 +38,7 @@ def to_lua(content,filename):
         content = re.sub(r'//.+','',content)
         content = re.sub(r'(?<=\n\n)(\n+)','',content)
         with open(__dir,'w') as f:
-            f.write(file_fmt.format(content))
+            f.write(file_fmt.format(protoc_path,content))
         print(f'gen lua file {filename} -> {__dir}')
         f.close()
         limporter.append(f'require "{lua_proto_import_path}.{__fn}"\n')
@@ -47,6 +49,6 @@ for file in os.listdir('./proto'):
             content = f.read()
             to_lua(content,file.split('.')[0])     
 
-with open(f'{out_dir}/importer.lua','w')as f:
+with open(f'{out_dir}/Importer.lua','w')as f:
     f.writelines(limporter)
 
