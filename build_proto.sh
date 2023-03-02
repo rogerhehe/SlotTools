@@ -12,7 +12,7 @@ C_OUTPUT_PATH=$POJECT_PATH'/Assets/_LuaScripts/Game/Net/Proto'
 # lua go gen
 rm -rf $out_dir
 
-python3 $CURPATH/bin/gen_proto.py --dir=$out_path --script_path='Assets/_LuaScripts/Game/Net/Proto'
+python3 $CURPATH/bin/gen_proto.py --dir=$out_path --script_path='/Assets/_LuaScripts/Game/Net/Proto'
 
 mkdir $out_dir/go
 mkdir $out_dir/py
