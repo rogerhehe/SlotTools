@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protoCfg desc="后端间通信">
+    <cfg target="System" up="C" down="S" resp_offset="20000" type="normal" desc="系统协议">
+        <proto id="10001" name="HANDSHAKE" req="pb.S2CHandShake" resp="pb.C2SHandShake" />
+        <proto id="10002" name="ECHO" req="pb.S2CEcho" />
+    </cfg>
+    <cfg target="Server" up="C" down="S" type="sync" desc="同步协议">
+        <proto id="50001" name="SYNC_ERROR" req="pb.C2SSyncError" />
+        <proto id="50002" name="SYNC_GAME_SERVER" req="pb.C2SSyncGameServer" />
+        <proto id="50003" name="SYNC_ROOM_SERVER" req="pb.C2SSyncRoomServer" />
+        <proto id="50004" name="SYNC_WORLD_SERVER" req="pb.C2SSyncWorldServer" />
+        <proto id="50005" name="SYNC_FORWARD_MSG" req="pb.C2SForwardMsg" />
+    </cfg>
+</protoCfg>
