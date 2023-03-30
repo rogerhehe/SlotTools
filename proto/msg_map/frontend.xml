@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protoCfg desc="前后端通信">
+    <cfg target="System" up="C" down="G" resp_offset="1" type="normal" desc="系统协议">
+        <proto id="1" name="KEEP_ALIVE" req="pb.C2GKeepAlive" resp="pb.G2CKeepAlive" />
+        <proto id="3" name="ERROR" req="pb.C2GKeepAlive" resp="pb.G2CKeepAlive" />
+    </cfg>
+    <cfg target="Game" up="C" down="G" resp_offset="2000" type="normal" desc="GameServer协议">
+        <proto id="1001" name="LOGIN" req="pb.C2GLogin" resp="pb.G2CLogin" />
+    </cfg>
+    <cfg target="Room" up="C" down="R" resp_offset="2000" type="normal" desc="RoomServer协议">
+        <proto id="5001" name="TEST" req="pb.C2RTest" resp="pb.R2CTest" />
+    </cfg>
+    <cfg target="World" up="C" down="W" resp_offset="2000" type="normal" desc="WorldServer协议">
+        <proto id="6001" name="TEST" req="pb.C2WTest" resp="pb.W2CTest" />
+    </cfg>
+</protoCfg>

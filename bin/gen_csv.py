@@ -164,7 +164,7 @@ def to_file(data, fn_no_ext, path):
 	with open(f'{args.output_dir}/lua{path}/{str.split(fn_no_ext,".")[0]}.lua', 'w') as f:
 		f.write('local config = '+ dic_to_lua_str(data) + '\nreturn config')
 		f.close()
-
+	
 
 
 #%% 导出
